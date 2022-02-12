@@ -1,3 +1,13 @@
+#!/bin/sh
+#
+# Script Name: zsh.sh
+#
+# Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for setting up ZSH.
+#
+
+# Installing ZSH on ubuntu
 sudo apt install zsh
 
 # Set up zsh tools
