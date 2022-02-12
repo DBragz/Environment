@@ -1,3 +1,5 @@
+sudo apt install zsh
+
 # Set up zsh tools
 PATH_TO_ZSH_DIR=$HOME/.oh-my-zsh
 if [ -d $PATH_TO_ZSH_DIR ]
