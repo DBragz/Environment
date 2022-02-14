@@ -2,7 +2,7 @@
 <# .SYNOPSIS
      Environment Script
 .DESCRIPTION
-     Script for setting up my PowerShell profile theme.
+     Script for setting up my PowerShell theme.
 .NOTES
      Author     : Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 .LINK
