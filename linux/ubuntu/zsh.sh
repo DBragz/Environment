@@ -8,10 +8,7 @@
 #
 
 # Installing zsh using apt
-#sudo apt install zsh
-
-# Installing zsh using brew
-sudo brew install zsh
+apt install zsh
 
 # Set up zsh tools
 PATH_TO_ZSH_DIR=$HOME/.oh-my-zsh
