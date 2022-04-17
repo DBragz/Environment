@@ -1,7 +1,7 @@
 <# .SYNOPSIS
 	SSH Key setup
 .DESCRIPTION
-	Script for generating SSH keys for my system.
+	Script for generating SSH keys.
 .NOTES
 	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 .LINK

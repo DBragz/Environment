@@ -1,7 +1,7 @@
 <# .SYNOPSIS
-	Git setup
+	Git install
 .DESCRIPTION
-	Script for install git and setting up my GitHub account.
+	Script for installing git and setting up my GitHub account.
 .NOTES
 	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 .LINK

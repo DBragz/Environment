@@ -1,5 +1,5 @@
 <# .SYNOPSIS
-	Sets up Git proxy
+	Git proxy setup
 .DESCRIPTION
 	Script for setting up git proxy.
 .NOTES

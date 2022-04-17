@@ -1,11 +1,11 @@
 <# .SYNOPSIS
-	Powershell profile
+	Powershell profile setup
 .DESCRIPTION
 	Script for setting up my PowerShell theme.
 .NOTES
 	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 .LINK
-	https://github.com/DBragz/environment/windows.ps1
+	hhttps://github.com/DBragz/environment/blob/main/windows/powershell.ps1
 #>
 
 New-item -type file -force $profile

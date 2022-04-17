@@ -1,11 +1,11 @@
 <# .SYNOPSIS
-	Node setup
+	Node install
 .DESCRIPTION
-	Script for install Node.js
+	Script for installing Node.js
 .NOTES
 	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 .LINK
-	https://github.com/DBragz/environment/windows.ps1
+	https://github.com/DBragz/environment/blob/main/windows/node.ps1
 #>
 
 winget install -e --id OpenJS.Nodejs
