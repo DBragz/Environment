@@ -8,7 +8,7 @@
 #
 
 # Installing zsh using brew
-sudo brew install zsh
+brew install zsh
 
 # Set up zsh tools
 PATH_TO_ZSH_DIR=$HOME/.oh-my-zsh

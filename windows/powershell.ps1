@@ -1,6 +1,5 @@
-# Environment
 <# .SYNOPSIS
-     Environment Script
+     Powershell profile
 .DESCRIPTION
      Script for setting up my PowerShell theme.
 .NOTES

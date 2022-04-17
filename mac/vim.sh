@@ -8,6 +8,6 @@
 #
 
 # Installing vim using brew
-sudo brew install vim
+brew install vim
 
 echo "set tabstop=2" >> ~/.vimrc
