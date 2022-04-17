@@ -4,7 +4,7 @@
 #
 # Author: Daniel Ribeirinha-Braga
 #
-# Description: Script for setting up git configuration on unix.
+# Description: Script for setting up git configuration on mac.
 #
 
 git config --global user.name "Daniel Ribeirinha-Braga"
