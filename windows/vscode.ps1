@@ -10,4 +10,6 @@
 
 winget install Microsoft.VisualStudioCode --override '/SILENT /mergetasks="!runcode,addcontextmenufiles,addcontextmenufolders"'
 
+New-Item -Path ~\AppData\Roaming\Code\User\ -ItemType Directory
+
 Copy-Item .\configs\vscode.json ~\AppData\Roaming\Code\User\settings.json
