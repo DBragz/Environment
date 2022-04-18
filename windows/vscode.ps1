@@ -5,7 +5,9 @@
 .NOTES
 	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 .LINK
-	https://github.com/DBragz/environment/windows.ps1
+	https://github.com/DBragz/environment/blob/main/windows/vscode.ps1
 #>
 
-winget install Microsoft.VisualStudioCode
+winget install Microsoft.VisualStudioCode --override '/SILENT /mergetasks="!runcode,addcontextmenufiles,addcontextmenufolders"'
+
+Copy-Item .\configs\vscode.json ~\AppData\Roaming\Code\User\settings.json
