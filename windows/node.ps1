@@ -8,4 +8,4 @@
 	https://github.com/DBragz/environment/blob/main/windows/node.ps1
 #>
 
-winget install -e --id OpenJS.Nodejs
+winget install OpenJS.NodeJS.LTS
