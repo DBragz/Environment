@@ -1,7 +1,7 @@
 <# .SYNOPSIS
 	Windows terminal install
 .DESCRIPTION
-	Script for installing windows terminal
+	Script for installing Windows terminal.
 .NOTES
 	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 .LINK

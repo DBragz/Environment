@@ -1,7 +1,7 @@
 <# .SYNOPSIS
 	Chocolatey install
 .DESCRIPTION
-	Script for installing chocolatey.
+	Script for installing Chocolatey.
 .NOTES
 	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 .LINK

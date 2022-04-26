@@ -1,7 +1,7 @@
 <# .SYNOPSIS
-	Visual studio install
+	Visual Studio Code install
 .DESCRIPTION
-	Script for installing visual studio code.
+	Script for installing Visual Studio Code.
 .NOTES
 	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 .LINK

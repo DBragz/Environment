@@ -1,7 +1,7 @@
 <# .SYNOPSIS
 	Docker install
 .DESCRIPTION
-	Script for installing docker.
+	Script for installing Docker.
 .NOTES
 	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 .LINK

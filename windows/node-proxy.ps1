@@ -1,7 +1,7 @@
 <# .SYNOPSIS
 	Node proxy setup
 .DESCRIPTION
-	Script for setting up Node.js proxy
+	Script for setting up Node.js proxy.
 .NOTES
 	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 .LINK
