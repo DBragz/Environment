@@ -10,5 +10,5 @@
 
 $1 = $args[0]
 
-npm config set proxy $1
-npm config set https-proxy $1
+npm config set proxy ${1}
+npm config set https-proxy ${1}

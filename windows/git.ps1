@@ -14,7 +14,7 @@ winget install --id Git.Git -e --source winget
 
 git config --global user.name "Daniel Ribeirinha-Braga"
 
-if ($1 -eq "1") {
+if (${1} -eq "1") {
 	git config --global user.email "daniel.ribeirinha-braga@ll.mit.edu" 
 }
 else {

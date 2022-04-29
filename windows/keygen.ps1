@@ -10,7 +10,7 @@
 
 $1 = $args[0]
 
-if ($1 = "1") {
+if (${1} = "1") {
 	ssh-keygen -t rsa -b 4096 -C "daniel.ribeirinha-braga@ll.mit.edu" 
 }
 else {

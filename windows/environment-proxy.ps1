@@ -10,5 +10,5 @@
 
 $1 = $args[0]
 
-[System.Environment]::SetEnvironmentVariable('HTTP_PROXY', $1, [System.EnvironmentVariableTarget]::User)
-[System.Environment]::SetEnvironmentVariable('HTTPS_PROXY', $1, [System.EnvironmentVariableTarget]::User)
+[System.Environment]::SetEnvironmentVariable('HTTP_PROXY', ${1}, [System.EnvironmentVariableTarget]::User)
+[System.Environment]::SetEnvironmentVariable('HTTPS_PROXY', ${1}, [System.EnvironmentVariableTarget]::User)

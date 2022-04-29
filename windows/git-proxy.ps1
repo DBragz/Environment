@@ -10,4 +10,4 @@
 
 $1 = $args[0]
 
-git config --global http.proxy $1
+git config --global http.proxy ${1}
