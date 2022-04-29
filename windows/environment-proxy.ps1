@@ -8,7 +8,7 @@
 	https://github.com/DBragz/environment/blob/main/windows/environment-proxy.ps1
 #>
 
-param($1)
+$1 = $args[0]
 
 [System.Environment]::SetEnvironmentVariable('HTTP_PROXY', $1, [System.EnvironmentVariableTarget]::User)
 [System.Environment]::SetEnvironmentVariable('HTTPS_PROXY', $1, [System.EnvironmentVariableTarget]::User)

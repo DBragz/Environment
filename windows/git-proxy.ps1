@@ -8,6 +8,6 @@
 	https://github.com/DBragz/environment/blob/main/windows/git-proxy.ps1
 #>
 
-param($1)
+$1 = $args[0]
 
 git config --global http.proxy $1

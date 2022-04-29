@@ -8,7 +8,7 @@
 	https://github.com/DBragz/environment/blob/main/windows/git.ps1
 #>
 
-param($1)
+$1 = $args[0]
 
 winget install --id Git.Git -e --source winget
 

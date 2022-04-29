@@ -8,7 +8,7 @@
 	https://github.com/DBragz/environment/blob/main/windows/node-proxy.ps1
 #>
 
-param($1)
+$1 = $args[0]
 
 npm config set proxy $1
 npm config set https-proxy $1
