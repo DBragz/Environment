@@ -1,5 +1,5 @@
 <# .SYNOPSIS
-	Scoop terminal install
+	Scoop package manager install
 .DESCRIPTION
 	Script for installing scoop.
 .NOTES
