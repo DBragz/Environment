@@ -1,12 +1,11 @@
 <# .SYNOPSIS
-	Posh install
+	Posh-Git install
 .DESCRIPTION
-	Script for installing Post Git and Oh My Posh.
+	Script for installing Post-Git.
 .NOTES
 	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 .LINK
-	hhttps://github.com/DBragz/environment/blob/main/windows/posh.ps1
+	hhttps://github.com/DBragz/environment/blob/main/windows/posh-git.ps1
 #>
 
-Install-Module posh-git -Scope CurrentUser -AllowPrerelease -Force
-Install-Module oh-my-posh -Scope CurrentUser -AllowPrerelease -Force
+choco install poshgit
