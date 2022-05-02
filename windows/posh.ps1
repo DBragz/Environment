@@ -5,7 +5,9 @@
 .NOTES
 	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 .LINK
-	hhttps://github.com/DBragz/environment/blob/main/windows/posh-git.ps1
+	https://github.com/DBragz/environment/blob/main/windows/posh-git.ps1
 #>
 
 choco install poshgit
+
+Add-Content -path $profile -Value 'Import-Module posh-git'

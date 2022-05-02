@@ -5,7 +5,7 @@
 .NOTES
 	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 .LINK
-	hhttps://github.com/DBragz/environment/blob/main/windows/theme.ps1
+	https://github.com/DBragz/environment/blob/main/windows/theme.ps1
 #>
 
 New-item -type file -force $profile
