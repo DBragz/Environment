@@ -8,6 +8,6 @@
 	https://github.com/DBragz/environment/blob/main/windows/posh-git.ps1
 #>
 
-choco install poshgit
+Install-Module posh-git
 
 Add-PoshGitToProfile
