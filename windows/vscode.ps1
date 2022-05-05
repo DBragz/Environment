@@ -8,7 +8,7 @@
 	https://github.com/DBragz/environment/blob/main/windows/vscode.ps1
 #>
 
-winget install Microsoft.VisualStudioCode --override '/SILENT /mergetasks="!runcode,addcontextmenufiles,addcontextmenufolders"'
+winget install -e --id Microsoft.VisualStudioCode --override '/SILENT /mergetasks="!runcode,addcontextmenufiles,addcontextmenufolders"'
 
 New-Item -Path ~\AppData\Roaming\Code\User\ -ItemType Directory
 

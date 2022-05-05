@@ -8,6 +8,6 @@
 	https://github.com/DBragz/environment/blob/main/windows/node.ps1
 #>
 
-winget install OpenJS.NodeJS.LTS
+winget install -e --id OpenJS.NodeJS.LTS
 
-refreshenv
+.("windows\refresh.ps1")

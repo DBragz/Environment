@@ -8,4 +8,4 @@
 	https://github.com/DBragz/environment/blob/main/windows/windows-terminal.ps1
 #>
 
-winget install Microsoft.WindowsTerminal
+winget install -e --id Microsoft.WindowsTerminal

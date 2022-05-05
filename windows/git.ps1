@@ -10,7 +10,7 @@
 
 $1 = $args[0]
 
-winget install --id Git.Git -e --source winget
+winget install -e --id Git.Git
 
 git config --global user.name "Daniel Ribeirinha-Braga"
 

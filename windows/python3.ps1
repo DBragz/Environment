@@ -9,5 +9,3 @@
 #>
 
 winget install -e --id Python.Python.3
-
-winget install -e --id Notepad++.Notepad++

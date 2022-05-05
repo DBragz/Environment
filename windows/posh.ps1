@@ -10,4 +10,4 @@
 
 choco install poshgit
 
-Add-Content -path $profile -Value 'Import-Module posh-git'
+Add-PoshGitToProfile

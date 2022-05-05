@@ -9,5 +9,7 @@
 #>
 
 wget https://cygwin.com/setup-x86_64.exe -o setup-x86_64.exe
+
 .\setup-x86_64.exe
-Remove-Item setup-x
+
+Remove-Item setup-x86_64.exe
