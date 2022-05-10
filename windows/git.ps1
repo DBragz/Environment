@@ -16,7 +16,9 @@ $2 = $args[1]
 
 winget install -e --id Git.Git
 
-git config --global user.name $1
-git config --global user.email $2
+if (${1}) {
+	git config --global user.name $1
+	git config --global user.email $2
+}
 
 .("windows\refresh.ps1")
