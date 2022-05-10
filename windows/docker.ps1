@@ -10,4 +10,4 @@
 
 winget install -e --id Docker.DockerDesktop
 
-refreshenv
+.("windows\refresh.ps1")

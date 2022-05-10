@@ -8,17 +8,15 @@
 	https://github.com/DBragz/environment/blob/main/windows/git.ps1
 #>
 
+# Username
 $1 = $args[0]
+
+# Email
+$2 = $args[1]
 
 winget install -e --id Git.Git
 
-git config --global user.name "Daniel Ribeirinha-Braga"
+git config --global user.name $1
+git config --global user.email $2
 
-if (${1} -eq "1") {
-	git config --global user.email "daniel.ribeirinha-braga@ll.mit.edu" 
-}
-else {
-	git config --global user.email "dmrbraga@gmail.com"
-}
-
-refreshenv
+.("windows\refresh.ps1")
