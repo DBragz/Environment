@@ -7,11 +7,14 @@
 # Description: Script for setting up git configuration on mac.
 #
 
-git config --global user.name "Daniel Ribeirinha-Braga"
+# Username
+$1 = $@[0]
 
-if [ "$1" = "1" ]
+# Email
+$2 = $@[1]
+
+if [ ! -z $1 ] && [ ! -z $2 ]
 then
-	git config --global user.email "daniel.ribeirinha-braga@ll.mit.edu" 
-else
-	git config --global user.email "dmrbraga@gmail.com"
+	git config --global user.name $1
+	git config --global user.email $2 
 fi
