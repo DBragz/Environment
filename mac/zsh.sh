@@ -20,3 +20,7 @@ else
 	(cd $HOME && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended)
 	echo "✅ Successfully installed zsh tools"
 fi
+
+touch ~/.bash_profile
+echo 'export SHELL=$(which zsh)' >> ~/.bash_profile
+echo 'exec $(which zsh) -l' >> ~/.bash_profile
