@@ -21,6 +21,11 @@ else
 	echo "✅ Successfully installed zsh tools"
 fi
 
+git clone https://github.com/powerline/fonts
+./fonts/install.sh
+
 touch ~/.bash_profile
 echo 'export SHELL=$(which zsh)' >> ~/.bash_profile
 echo 'exec $(which zsh) -l' >> ~/.bash_profile
+
+echo "REMINDER: Open iTerm2->Preferences->Profiles->Change Font-> Meslo LG S DZ Regular"
