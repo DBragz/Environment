@@ -7,4 +7,7 @@
 # Description: Script for setting up git proxy.
 #
 
+# Proxy
+$1 = $@[0]
+
 git config --global http.proxy $1

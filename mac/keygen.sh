@@ -7,11 +7,9 @@
 # Description: Script for setting SSH keys.
 #
 
-if [ "$1" = "1" ]
-then
-	ssh-keygen -t rsa -b 4096 -C "daniel.ribeirinha-braga@ll.mit.edu" 
-else
-	ssh-keygen -t rsa -b 4096 -C "dmrbraga@gmail.com" 
-fi
+# Email
+$1 = $@[0]
+
+ssh-keygen -t rsa -b 4096 -C $1
 
 cat ~/.ssh/id_rsa.pub

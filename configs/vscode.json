@@ -1,6 +1,10 @@
 {
-  "explorer.confirmDragAndDrop": false,
+  "window.zoomLevel": 1,
   "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2
   "workbench.colorCustomizations": {
     "sideBar.background": "#000000",
     "contrastBorder": "#00FFFF",
@@ -39,11 +43,5 @@
     "notifications.background": "#000000",
     "badge.foreground": "#00FFFF",
     "badge.background": "#000000"
-  },
-  "window.zoomLevel": 1,
-  "editor.suggestSelection": "first",
-  "python.languageServer": "Default",
-  "editor.formatOnSave": true,
-  "editor.tabSize": 2
+  }
 }
-  
