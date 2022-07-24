@@ -4,7 +4,7 @@
   "explorer.confirmDragAndDrop": false,
   "editor.formatOnSave": true,
   "editor.suggestSelection": "first",
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
   "workbench.colorCustomizations": {
     "sideBar.background": "#000000",
     "contrastBorder": "#00FFFF",
