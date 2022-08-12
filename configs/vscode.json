@@ -1,10 +1,17 @@
 {
+  "security.workspace.trust.untrustedFiles": "open",
   "window.zoomLevel": 1,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "editor.formatOnSave": true,
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "eslint.format.enable": true,
+  "eslint.run": "onSave",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
   "workbench.colorCustomizations": {
     "sideBar.background": "#000000",
     "contrastBorder": "#00FFFF",
@@ -43,5 +50,6 @@
     "notifications.background": "#000000",
     "badge.foreground": "#00FFFF",
     "badge.background": "#000000"
-  }
+  },
+  "workbench.iconTheme": "material-icon-theme"
 }
