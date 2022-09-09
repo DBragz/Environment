@@ -8,4 +8,4 @@
 	https://github.com/DBragz/environment/blob/main/windows/scoop.ps1
 #>
 
-iwr -useb get.scoop.sh | iex
+Invoke-WebRequest -useb get.scoop.sh | Invoke-Expression

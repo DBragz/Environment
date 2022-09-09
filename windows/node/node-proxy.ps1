@@ -8,7 +8,9 @@
 	https://github.com/DBragz/environment/blob/main/windows/node-proxy.ps1
 #>
 
-$1 = $args[0]
+if ((-not $args[0])) {
+  return Write-Host "Error: Parameters missing`nUsage: node-proxy [<proxy>]"
+}
 
-npm config set proxy ${1}
-npm config set https-proxy ${1}
+npm config set proxy $args[0]
+npm config set https-proxy $args[0]

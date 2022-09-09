@@ -8,17 +8,14 @@
 	https://github.com/DBragz/environment/blob/main/windows/git.ps1
 #>
 
-# Username
-$1 = $args[0]
 
-# Email
-$2 = $args[1]
+if ((-not $args[0]) -or (-not $args[1])) {
+  return Write-Host "Error: Parameters missing`nUsage: git [<name>] [<email>]"
+}
 
 winget install -e --id Git.Git
 
-if (${1}) {
-	git config --global user.name $1
-	git config --global user.email $2
-}
+git config --global user.name $args[0]
+git config --global user.email $args[1]
 
 .("windows\refresh.ps1")

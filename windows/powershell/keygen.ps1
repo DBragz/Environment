@@ -8,9 +8,10 @@
 	https://github.com/DBragz/environment/blob/main/windows/keygen.ps1
 #>
 
-# Email
-$1 = $args[0]
+if ((-not $args[0]) -or (-not $args[1])) {
+  return Write-Host "Error: Parameters missing`nUsage: keygen [<email>]"
+}
 
-ssh-keygen -t rsa -b 4096 -C $1
+ssh-keygen -t rsa -b 4096 -C $args[0]
 
 Get-Content ~/.ssh/id_rsa.pub

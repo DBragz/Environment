@@ -8,6 +8,6 @@
 	https://github.com/DBragz/environment/blob/main/windows/winget.ps1
 #>
 
-wget https://github.com/microsoft/winget-cli/releases/download/v1.2.10271/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle -o winget.msixbundle
+curl -L https://github.com/microsoft/winget-cli/releases/download/v1.3.2091/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle --output winget.msixbundle
 
 .\winget.msixbundle

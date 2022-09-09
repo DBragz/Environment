@@ -8,10 +8,8 @@
 	https://github.com/DBragz/environment/blob/main/windows/ssh-authorize.ps1
 #>
 
-# Username
-$1 = $args[0]
+if ((-not $args[0]) -or (-not $args[1])) {
+  return Write-Host "Error: Parameters missing`nUsage: ssh-authorize [<username>] [<hostname>]"
+}
 
-# Server
-$2 = $args[1]
-
-cat ~/.ssh/id_rsa.pub | ssh ${1}@${2} 'mkdir ~/.ssh/ && touch ~/.ssh/authorized_keys && cat >> ~/.ssh/authorized_keys'
+Get-Content ~/.ssh/id_rsa.pub | ssh $($args[0])@$($args[1]) 'mkdir ~/.ssh/ && touch ~/.ssh/authorized_keys && cat >> ~/.ssh/authorized_keys'

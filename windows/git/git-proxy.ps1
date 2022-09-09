@@ -8,6 +8,8 @@
 	https://github.com/DBragz/environment/blob/main/windows/git-proxy.ps1
 #>
 
-$1 = $args[0]
+if ((-not $args[0])) {
+  return Write-Host "Error: Parameters missing`nUsage: git-proxy [<proxy>]"
+}
 
-git config --global http.proxy ${1}
+git config --global http.proxy $args[0]
