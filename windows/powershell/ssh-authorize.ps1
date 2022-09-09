@@ -5,7 +5,7 @@
 .NOTES
 	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 .LINK
-	https://github.com/DBragz/environment/blob/main/windows/ssh-authorize.ps1
+	https://github.com/DBragz/Environment/blob/main/windows/powershell/ssh-authorize.ps1
 #>
 
 if ((-not $args[0]) -or (-not $args[1])) {
