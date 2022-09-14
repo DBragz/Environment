@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Script Name: command-line-tools.sh
+# Script Name: xcode.sh
 #
 # Author: Daniel Ribeirinha-Braga
 #
