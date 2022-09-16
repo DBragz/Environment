@@ -1,11 +1,9 @@
 <# .SYNOPSIS
-	Visual Studio Code install
+	Visual Studio Code Install
 .DESCRIPTION
 	Script for installing Visual Studio Code.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
-.LINK
-	https://github.com/DBragz/environment/blob/main/windows/vscode.ps1
+	Author: Daniel Ribeirinha-Braga
 #>
 
 winget install -e --id Microsoft.VisualStudioCode --override '/SILENT /mergetasks="!runcode,addcontextmenufiles,addcontextmenufolders"'

@@ -4,7 +4,7 @@
 #
 # Author: Daniel Ribeirinha-Braga
 #
-# Description: Script for setting SSH keys.
+# Description: Script for generating SSH keys.
 #
 
 ssh-keygen -t rsa -b 4096 -C $1

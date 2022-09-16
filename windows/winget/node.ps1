@@ -1,13 +1,11 @@
 <# .SYNOPSIS
-	Node install
+	Node Install
 .DESCRIPTION
 	Script for installing Node.js
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
-.LINK
-	https://github.com/DBragz/environment/blob/main/windows/node.ps1
+	Author: Daniel Ribeirinha-Braga
 #>
 
 winget install -e --id OpenJS.NodeJS.LTS
 
-.("windows\refresh.ps1")
+.("windows\powershell\refresh.ps1")

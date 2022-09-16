@@ -1,11 +1,9 @@
 <# .SYNOPSIS
-	Python install
+	Python 3 Install
 .DESCRIPTION
 	Script for installing Python 3.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
-.LINK
-	https://github.com/DBragz/environment/blob/main/windows/python3.ps1
+	Author: Daniel Ribeirinha-Braga
 #>
 
 winget install -e --id Python.Python.3

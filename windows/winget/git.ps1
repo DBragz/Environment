@@ -1,11 +1,9 @@
 <# .SYNOPSIS
-	Git install
+	Git Install
 .DESCRIPTION
 	Script for installing git and setting up my GitHub account.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
-.LINK
-	https://github.com/DBragz/environment/blob/main/windows/git.ps1
+	Author: Daniel Ribeirinha-Braga
 #>
 
 

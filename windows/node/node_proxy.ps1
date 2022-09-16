@@ -1,11 +1,9 @@
 <# .SYNOPSIS
-	Node proxy setup
+	Node Proxy Setup
 .DESCRIPTION
 	Script for setting up Node.js proxy.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
-.LINK
-	https://github.com/DBragz/environment/blob/main/windows/node-proxy.ps1
+	Author: Daniel Ribeirinha-Braga
 #>
 
 if ((-not $args[0])) {

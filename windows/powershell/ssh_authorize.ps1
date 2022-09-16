@@ -1,11 +1,9 @@
 <# .SYNOPSIS
-	Authorizing SSH keys
+	Authorizing SSH Keys
 .DESCRIPTION
 	Script for adding SSH keys to a server to be authorized.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
-.LINK
-	https://github.com/DBragz/Environment/blob/main/windows/powershell/ssh-authorize.ps1
+	Author: Daniel Ribeirinha-Braga
 #>
 
 if ((-not $args[0]) -or (-not $args[1])) {

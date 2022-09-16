@@ -1,12 +1,9 @@
 <# .SYNOPSIS
-	Chocolatey install
+	Chocolatey Install
 .DESCRIPTION
 	Script for installing Chocolatey.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
-.LINK
-	https://github.com/DBragz/Environment/blob/main/windows/powershell/chocolatey.ps1
-
+	Author: Daniel Ribeirinha-Braga
 #>
 
 Set-ExecutionPolicy Bypass -Scope Process -Force

@@ -3,10 +3,8 @@
 .DESCRIPTION
 	Script for installing Windows Subsystem for Linux.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+	Author: Daniel Ribeirinha-Braga
 	Manual Install Reference: https://docs.microsoft.com/en-us/windows/wsl/install-manual
-.LINK
-	https://github.com/DBragz/Environment/blob/main/windows/powershell/wsl.ps1
 #>
 
 wsl --install

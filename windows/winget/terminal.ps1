@@ -1,11 +1,9 @@
 <# .SYNOPSIS
-	Windows terminal install
+	Windows Terminal Install
 .DESCRIPTION
-	Script for installing Windows terminal.
+	Script for installing Windows Terminal.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
-.LINK
-	https://github.com/DBragz/environment/blob/main/windows/windows-terminal.ps1
+	Author: Daniel Ribeirinha-Braga
 #>
 
 winget install -e --id Microsoft.WindowsTerminal

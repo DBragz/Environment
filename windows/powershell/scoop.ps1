@@ -1,11 +1,9 @@
 <# .SYNOPSIS
-	Scoop package manager install
+	Scoop Install
 .DESCRIPTION
-	Script for installing scoop.
+	Script for installing Scoop.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
-.LINK
-	https://github.com/DBragz/Environment/blob/main/windows/powershell/scoop.ps1
+	Author: Daniel Ribeirinha-Braga
 #>
 
 Invoke-WebRequest -useb get.scoop.sh | Invoke-Expression

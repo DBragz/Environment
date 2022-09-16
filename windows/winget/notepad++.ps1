@@ -1,11 +1,9 @@
 <# .SYNOPSIS
-	Notepad++ install
+	Notepad++ Install
 .DESCRIPTION
 	Script for installing Notepad++.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
-.LINK
-	https://github.com/DBragz/environment/blob/main/windows/notepad++.ps1
+	Author: Daniel Ribeirinha-Braga
 #>
 
 winget install -e --id Notepad++.Notepad++

@@ -1,11 +1,9 @@
 <# .SYNOPSIS
-	Oh My Posh install
+	Oh My Posh Install
 .DESCRIPTION
 	Script for installing Oh My Posh.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
-.LINK
-	https://github.com/DBragz/environment/blob/main/windows/oh-my-posh.ps1
+	Author: Daniel Ribeirinha-Braga
 #>
 
 winget install -e --id oh-my-posh
