@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/ash
 #
 # Script Name: neovim.sh
 #
@@ -7,6 +7,4 @@
 # Description: Script for installing Neovim.
 #
 
-brew install neovim
-
-echo "set tabstop=2" >> ~/.vimrc
+apk add neovim

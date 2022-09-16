@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 #
 # Script Name: python3.sh
 #

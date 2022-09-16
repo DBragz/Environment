@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/zsh
 #
-# Script Name: bash.sh
+# Script Name: bash_profile.sh
 #
 # Author: Daniel Ribeirinha-Braga
 #

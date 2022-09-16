@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/zsh
 #
-# Script Name: git.sh
+# Script Name: git_proxy.sh
 #
 # Author: Daniel Ribeirinha-Braga
 #

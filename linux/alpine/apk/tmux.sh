@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/ash
 #
 # Script Name: tmux.sh
 #
@@ -7,4 +7,4 @@
 # Description: Script for installing Tmux.
 #
 
-brew install tmux
+apk add tmux

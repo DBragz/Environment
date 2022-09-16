@@ -1,10 +1,10 @@
-#!/bin/sh
+#!/bin/zsh
 #
 # Script Name: vim.sh
 #
 # Author: Daniel Ribeirinha-Braga
 #
-# Description: Script for setting up vim configurations.
+# Description: Script for installing Vim and setting up configurations.
 #
 
 # Installing vim using brew

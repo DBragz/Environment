@@ -1,10 +1,10 @@
-#!/bin/sh
+#!/bin/zsh
 #
 # Script Name: vscode.sh
 #
 # Author: Daniel Ribeirinha-Braga
 #
-# Description: Script for installing vscode with my themes.
+# Description: Script for installing VSCode with my themes.
 #
 
 brew install visual-studio-code

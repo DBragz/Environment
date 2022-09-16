@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 #
 # Script Name: keygen.sh
 #

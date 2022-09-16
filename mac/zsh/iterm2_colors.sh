@@ -1,8 +1,12 @@
-# Usage:
-# source iterm2-colors.zsh
-
-# iTerm2 tab color commands
-# https://iterm2.com/documentation-escape-codes.html
+#!/bin/zsh
+#
+# Script Name: iterm2_colors.sh
+#
+# Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for setting up iTerm2 colors. iTerm2 tab color commands 
+# can be found here: https://iterm2.com/documentation-escape-codes.html
+#
 
 if [[ -n "$ITERM_SESSION_ID" ]]; then
     tab-color() {

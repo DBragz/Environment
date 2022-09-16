@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/zsh
 #
-# Script Name: zsh.sh
+# Script Name: oh_my_zsh.sh
 #
 # Author: Daniel Ribeirinha-Braga
 #
