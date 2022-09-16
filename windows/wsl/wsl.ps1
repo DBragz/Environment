@@ -1,5 +1,5 @@
 <# .SYNOPSIS
-	Windows Subsystem for Linux install
+	Windows Subsystem for Linux Install
 .DESCRIPTION
 	Script for installing Windows Subsystem for Linux.
 .NOTES

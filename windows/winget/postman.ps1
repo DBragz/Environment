@@ -1,5 +1,5 @@
 <# .SYNOPSIS
-	Postman install
+	Postman Install
 .DESCRIPTION
 	Script for installing Postman.
 .NOTES
