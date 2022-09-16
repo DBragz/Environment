@@ -8,4 +8,3 @@
 #
 
 apk add curl
-

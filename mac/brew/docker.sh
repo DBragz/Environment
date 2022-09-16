@@ -7,4 +7,4 @@
 # Description: Script for installing Docker.
 #
 
-brew install --cask docker 
+brew install --cask docker

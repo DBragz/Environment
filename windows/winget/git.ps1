@@ -16,4 +16,4 @@ winget install -e --id Git.Git
 git config --global user.name $args[0]
 git config --global user.email $args[1]
 
-.("windows\refresh.ps1")
+.("windows\powershell\refresh.ps1")
