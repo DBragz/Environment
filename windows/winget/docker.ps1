@@ -8,4 +8,4 @@
 
 winget install -e --id Docker.DockerDesktop
 
-.("windows\refresh.ps1")
+.("windows\powershell\refresh.ps1")
