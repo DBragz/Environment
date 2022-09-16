@@ -1,0 +1,1 @@
+brew install --cask vmware-horizon-client
