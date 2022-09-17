@@ -1,3 +1,12 @@
+#!/bin/ash
+#
+# Script Name: powershell.sh
+#
+# Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing PowerShell.
+#
+
 # install the requirements
 apk add --no-cache \
     ca-certificates \
