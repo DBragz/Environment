@@ -1,3 +1,11 @@
+#!/bin/ash
+#
+# Script Name: node.sh
+#
+# Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing Node.js and Node Package Manager (NPM).
+#
 
 echo "https://dl-cdn.alpinelinux.org/alpine/v3.12/main" >> /etc/apk/repositories
 echo "https://dl-cdn.alpinelinux.org/alpine/v3.12/community" >> /etc/apk/repositories
