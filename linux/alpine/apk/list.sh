@@ -7,6 +7,5 @@
 # Description: Script for viewing all Alpine Package Keeper (APK) packages.
 #
 
-
 chmod o+r /etc/apk/world
-cat /etc/APK/world
+cat /etc/APK/
