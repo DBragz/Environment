@@ -9,5 +9,3 @@
 
 # Installing vim using brew
 brew install vim
-
-echo "set tabstop=2" >> ~/.vimrc

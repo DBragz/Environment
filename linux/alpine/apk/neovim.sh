@@ -8,3 +8,7 @@
 #
 
 apk add neovim
+
+mkdir -p ~/.config/nvim/
+
+cp configs/init.vim ~/.config/nvim/

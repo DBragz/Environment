@@ -8,5 +8,3 @@
 #
 
 brew install neovim
-
-echo "set tabstop=2" >> ~/.vimrc
