@@ -4,7 +4,7 @@
 #
 # Author: Daniel Ribeirinha-Braga
 #
-# Description: Script for installing VIM Plug.
+# Description: Script for installing Vim Plug.
 #
 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
