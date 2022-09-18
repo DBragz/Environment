@@ -9,6 +9,6 @@
 
 apk add neovim
 
-mkdir -p ~/.config/nvim/
+mkdir -p ~/vimfiles/autoload/
 
-cp configs/init.vim ~/.config/nvim/
+cp configs/init.vim ~/vimfiles/autoload/plug.vim
