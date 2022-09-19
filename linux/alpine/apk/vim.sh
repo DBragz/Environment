@@ -7,6 +7,8 @@
 # Description: Script for installing Vim.
 #
 
+apk update
+
 apk add vim
 
 cp configs/.vimrc ~/.vimrc

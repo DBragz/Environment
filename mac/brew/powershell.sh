@@ -7,4 +7,6 @@
 # Description: Script for installing PowerShell.
 #
 
+brew update
+
 brew install --cask powershell

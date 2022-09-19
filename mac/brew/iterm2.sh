@@ -7,4 +7,6 @@
 # Description: Script for installing iTerm2.
 #
 
+brew update
+
 brew install --cask iterm2

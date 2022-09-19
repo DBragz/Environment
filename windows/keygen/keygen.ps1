@@ -7,7 +7,7 @@
 #>
 
 if ((-not $args[0]) -or (-not $args[1])) {
-  return Write-Host "Error: Parameters missing`nUsage: keygen [<email>]"
+  return Write-Host "Error: Parameters missing`nUsage: keygen.ps1 [<email>]"
 }
 
 ssh-keygen -t rsa -b 4096 -C $args[0]

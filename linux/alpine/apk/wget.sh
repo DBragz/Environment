@@ -7,4 +7,6 @@
 # Description: Script for installing Wget.
 #
 
+apk update
+
 apk add wget

@@ -7,4 +7,6 @@
 # Description: Script for installing Lazydocker.
 #
 
+brew update
+
 brew install lazydocker

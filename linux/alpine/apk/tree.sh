@@ -7,4 +7,6 @@
 # Description: Script for installing Tree.
 #
 
+apk update
+
 apk add tree

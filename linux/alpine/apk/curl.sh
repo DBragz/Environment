@@ -7,4 +7,6 @@
 # Description: Script for installing Curl.
 #
 
+apk update
+
 apk add curl

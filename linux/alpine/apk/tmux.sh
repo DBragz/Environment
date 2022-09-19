@@ -7,4 +7,6 @@
 # Description: Script for installing Tmux.
 #
 
+apk update
+
 apk add tmux

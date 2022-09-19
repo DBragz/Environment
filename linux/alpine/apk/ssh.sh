@@ -7,4 +7,6 @@
 # Description: Script for installing SSH.
 #
 
+apk update
+
 apk add openssh

@@ -7,4 +7,6 @@
 # Description: Script for installing up Microsoft Remote Desktop.
 #
 
+brew update
+
 brew install --cask microsoft-remote-desktop

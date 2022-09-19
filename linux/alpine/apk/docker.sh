@@ -7,7 +7,12 @@
 # Description: Script for installing Docker.
 #
 
+apk update
+
 apk add docker docker-compose
+
 addgroup $(whoami) docker
+
 rc-update add docker boot
+
 service docker start

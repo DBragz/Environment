@@ -7,4 +7,6 @@
 # Description: Script for installing Gradle.
 #
 
+brew update
+
 brew install gradle

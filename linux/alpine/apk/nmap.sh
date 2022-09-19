@@ -7,4 +7,6 @@
 # Description: Script for installing Nmap.
 #
 
+apk update
+
 apk add nmap

@@ -7,4 +7,6 @@
 # Description: Script for installing VMWare Client.
 #
 
+brew update
+
 brew install --cask vmware-horizon-client

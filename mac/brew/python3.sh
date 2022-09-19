@@ -7,4 +7,6 @@
 # Description: Script for installing python 3.10.
 #
 
+brew update
+
 brew install --build-from-source python@3.10

@@ -7,10 +7,10 @@
 # Description: Script for setting up zsh environment.
 #
 
-# Installing zsh using brew
+brew update
+
 brew install zsh
 
-# Set up zsh tools
 PATH_TO_ZSH_DIR=$HOME/.oh-my-zsh
 if [ -d $PATH_TO_ZSH_DIR ]
 then
@@ -25,6 +25,7 @@ git clone https://github.com/powerline/fonts
 ./fonts/install.sh
 
 touch ~/.bash_profile
+
 echo 'export SHELL=$(which zsh)' >> ~/.bash_profile
 echo 'exec $(which zsh) -l' >> ~/.bash_profile
 

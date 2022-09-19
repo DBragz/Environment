@@ -7,6 +7,8 @@
 # Description: Script for installing Neovim.
 #
 
+apk update
+
 apk add neovim
 
 mkdir -p ~/vimfiles/autoload/

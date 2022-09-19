@@ -7,4 +7,6 @@
 # Description: Script for installing Ansible.
 #
 
+apk update
+
 apk add ansible

@@ -7,4 +7,6 @@
 # Description: Script for installing MariaDB.
 #
 
+apk update
+
 apk add mariadb

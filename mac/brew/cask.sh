@@ -7,4 +7,6 @@
 # Description: Script for installing up Homebrew Cask.
 #
 
+brew update
+
 brew install cask

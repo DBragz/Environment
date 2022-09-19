@@ -7,7 +7,7 @@
 #>
 
 if ((-not $args[0])) {
-  return Write-Host "Error: Parameters missing`nUsage: proxy [<proxy>]"
+  return Write-Host "Error: Parameters missing`nUsage: proxy.ps1 [<proxy>]"
 }
 
 [System.Environment]::SetEnvironmentVariable('HTTP_PROXY', $args[0], [System.EnvironmentVariableTarget]::User)

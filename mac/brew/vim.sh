@@ -7,7 +7,8 @@
 # Description: Script for installing Vim and setting up configurations.
 #
 
-# Installing vim using brew
+brew update
+
 brew install neovim
 
 cp configs/.vimrc ~/.vimrc

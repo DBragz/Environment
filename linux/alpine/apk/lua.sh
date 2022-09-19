@@ -7,4 +7,6 @@
 # Description: Script for installing Lua.
 #
 
+apk update
+
 apk add lua-dev

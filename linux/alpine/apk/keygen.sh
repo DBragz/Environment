@@ -7,4 +7,6 @@
 # Description: Script for installing Keygen.
 #
 
+apk update
+
 apk add openssh-keygen

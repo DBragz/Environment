@@ -7,4 +7,6 @@
 # Description: Script for installing Apache.
 #
 
+apk update
+
 apk add apache2

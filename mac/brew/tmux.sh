@@ -7,4 +7,6 @@
 # Description: Script for installing Tmux.
 #
 
+brew update
+
 brew install tmux

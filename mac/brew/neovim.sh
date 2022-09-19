@@ -7,6 +7,8 @@
 # Description: Script for installing Neovim.
 #
 
+brew update
+
 brew install neovim
 
 mkdir ~/.config/nvim

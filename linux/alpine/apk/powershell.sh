@@ -7,6 +7,8 @@
 # Description: Script for installing PowerShell.
 #
 
+apk update
+
 # install the requirements
 apk add --no-cache \
     ca-certificates \

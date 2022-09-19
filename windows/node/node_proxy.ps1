@@ -7,7 +7,7 @@
 #>
 
 if ((-not $args[0])) {
-  return Write-Host "Error: Parameters missing`nUsage: node-proxy [<proxy>]"
+  return Write-Host "Error: Parameters missing`nUsage: node-proxy.ps1 [<proxy>]"
 }
 
 npm config set proxy $args[0]

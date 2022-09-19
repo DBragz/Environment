@@ -7,4 +7,6 @@
 # Description: Script for installing PIP.
 #
 
+apk update
+
 apk add py3-pip

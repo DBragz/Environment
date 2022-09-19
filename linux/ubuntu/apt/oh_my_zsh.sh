@@ -7,8 +7,10 @@
 # Description: Script for setting up zsh environment.
 #
 
+apt update
+
 # Installing zsh using apt
-apt install zsh
+apt install zsh -y
 
 # Set up zsh tools
 PATH_TO_ZSH_DIR=$HOME/.oh-my-zsh
