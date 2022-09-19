@@ -8,4 +8,6 @@
 #
 
 # Installing vim using brew
-brew install vim
+brew install neovim
+
+cp configs/.vimrc ~/.vimrc

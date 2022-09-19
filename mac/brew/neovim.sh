@@ -8,3 +8,7 @@
 #
 
 brew install neovim
+
+mkdir ~/.config/nvim
+
+cp configs/init.vim ~/.config/nvim/
