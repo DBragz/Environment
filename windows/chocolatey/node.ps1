@@ -1,11 +1,11 @@
 <# .SYNOPSIS
-	Docker Install
+	Node Install
 .DESCRIPTION
-	Script for installing Docker.
+	Script for installing Node.js
 .NOTES
 	Author: Daniel Ribeirinha-Braga
 #>
 
-winget install -e --id Docker.DockerDesktop
+choco install nodejs -y
 
 .("windows\powershell\refresh.ps1")

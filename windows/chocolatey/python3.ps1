@@ -6,4 +6,4 @@
 	Author: Daniel Ribeirinha-Braga
 #>
 
-winget install -e --id Python.Python.3
+choco install python3 -y
