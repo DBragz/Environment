@@ -4,7 +4,9 @@ Scripts for setting up my virtual environment on windows.
 
 ## Prerequisites
 
-Must run the following command in PowerShell from the **Run as Administrator** option. Once complete you can run all of the scripts in this directory.
+1. Open up PowerShell as **Administrator**.
+
+2. Run the following command.
 
 ```shell
 Set-ExecutionPolicy RemoteSigned
