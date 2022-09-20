@@ -6,7 +6,7 @@
 	Author: Daniel Ribeirinha-Braga
 #>
 
-winget install -e --id Microsoft.VisualStudioCode --override '/SILENT /mergetasks="!runcode,addcontextmenufiles,addcontextmenufolders"'
+choco install vscode
 
 New-Item -Path ~\AppData\Roaming\Code\User\ -ItemType Directory
 

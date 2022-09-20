@@ -6,4 +6,4 @@
 	Author: Daniel Ribeirinha-Braga
 #>
 
-winget install -e --id Microsoft.WindowsTerminal
+choco install microsoft-windows-terminal --pre

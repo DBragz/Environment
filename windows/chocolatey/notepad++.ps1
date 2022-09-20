@@ -6,4 +6,4 @@
 	Author: Daniel Ribeirinha-Braga
 #>
 
-winget install -e --id Notepad++.Notepad++
+choco install notepadplusplus
