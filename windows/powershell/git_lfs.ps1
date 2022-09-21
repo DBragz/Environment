@@ -1,5 +1,5 @@
 <# .SYNOPSIS
-	Git LfS Install
+	Git LFS Install
 .DESCRIPTION
 	Script for installing Git LFS.
 .NOTES
