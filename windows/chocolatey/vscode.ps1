@@ -6,8 +6,7 @@
 	Author: Daniel Ribeirinha-Braga
 #>
 
-choco install vscode
+choco install vscode -y
 
 New-Item -Path ~\AppData\Roaming\Code\User\ -ItemType Directory
-
 Copy-Item .\configs\vscode.json ~\AppData\Roaming\Code\User\settings.json

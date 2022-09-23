@@ -6,4 +6,4 @@
 	Author: Daniel Ribeirinha-Braga
 #>
 
-choco install notepadplusplus
+choco install notepadplusplus -y

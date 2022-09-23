@@ -6,4 +6,4 @@
 	Author: Daniel Ribeirinha-Braga
 #>
 
-choco install git-lfs
+choco install git-lfs -y

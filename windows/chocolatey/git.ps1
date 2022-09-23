@@ -10,7 +10,7 @@ if ((-not $args[0]) -or (-not $args[1])) {
   return Write-Host "Error: Parameters missing`nUsage: git.ps1 [<name>] [<email>]"
 }
 
-choco install -g 
+choco install git  -y
 
 git config --global user.name $args[0]
 git config --global user.email $args[1]

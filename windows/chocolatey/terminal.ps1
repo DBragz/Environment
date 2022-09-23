@@ -6,4 +6,4 @@
 	Author: Daniel Ribeirinha-Braga
 #>
 
-choco install microsoft-windows-terminal --pre
+choco install microsoft-windows-terminal -y
