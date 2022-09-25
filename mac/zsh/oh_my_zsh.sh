@@ -7,11 +7,8 @@
 # Description: Script for install Oh My Zsh environment.
 #
 
-apt update
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-sudo apt install zsh -y
-
-# Set up zsh tools
 PATH_TO_ZSH_DIR=$HOME/.oh-my-zsh
 if [ -d $PATH_TO_ZSH_DIR ]
 then
