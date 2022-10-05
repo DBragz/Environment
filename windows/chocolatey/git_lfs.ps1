@@ -7,3 +7,5 @@
 #>
 
 choco install git-lfs -y
+
+refreshenv

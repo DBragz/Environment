@@ -7,3 +7,5 @@
 #>
 
 choco install lazydocker -y
+
+refreshenv

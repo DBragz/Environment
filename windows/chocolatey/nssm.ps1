@@ -7,3 +7,5 @@ Non-Sucking Service Manager (NSSM) Install
 #>
 
 choco install nssm -y
+
+refreshenv

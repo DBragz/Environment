@@ -15,4 +15,5 @@ choco install git  -y
 git config --global user.name $args[0]
 git config --global user.email $args[1]
 
-.("windows\powershell\refresh.ps1")
+refreshenv
+

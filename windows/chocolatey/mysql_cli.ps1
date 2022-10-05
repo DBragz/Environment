@@ -7,3 +7,5 @@
 #>
 
 choco install mysql-cli -y
+
+refreshenv

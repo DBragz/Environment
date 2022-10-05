@@ -9,3 +9,5 @@
 choco install vim -y
 
 Copy-Item .\configs\.vimrc ~\.vimrc
+
+refreshenv

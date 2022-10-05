@@ -7,3 +7,5 @@
 #>
 
 choco install notepadplusplus -y
+
+refreshenv

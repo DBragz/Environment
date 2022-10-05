@@ -8,4 +8,4 @@
 
 choco install nodejs -y
 
-.("windows\powershell\refresh.ps1")
+refreshenv
