@@ -3,7 +3,7 @@
 .DESCRIPTION
 	Script for installing Oh My Posh.
 .NOTES
-	Author: Daniel Ribeirinha-Braga
+	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #>
 
 choco install oh-my-posh -y

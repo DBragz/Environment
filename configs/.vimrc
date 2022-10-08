@@ -12,3 +12,7 @@ set noswapfile
 set undodir=~/.vim/undodir
 set undofile
 set incsearch
+
+call plug#begin()
+Plug 'preservim/NERDTree'
+call plug#end()

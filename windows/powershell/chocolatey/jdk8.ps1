@@ -3,7 +3,7 @@
 .DESCRIPTION
 	Script for installing Java Development Kit (JDK) 8.
 .NOTES
-	Author: Daniel Ribeirinha-Braga
+	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #>
 
 choco install jdk8 -y

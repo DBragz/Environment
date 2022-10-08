@@ -1,9 +1,9 @@
 <# .SYNOPSIS
 	Lazydocker Install
 .DESCRIPTION
-	Script for installing Lazydocker
+	Script for installing Lazydocker.
 .NOTES
-	Author: Daniel Ribeirinha-Braga
+	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #>
 
 choco install lazydocker -y

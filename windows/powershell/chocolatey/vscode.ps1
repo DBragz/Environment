@@ -1,15 +1,15 @@
 <# .SYNOPSIS
-	Visual Studio Code Install
+	Visual Studio Code Install.
 .DESCRIPTION
 	Script for installing Visual Studio Code.
 .NOTES
-	Author: Daniel Ribeirinha-Braga
+	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #>
 
 choco install vscode -y
 
-New-Item -Path ~\AppData\Roaming\Code\User\ -ItemType Directory
+New-Item -ItemType Directory -Path $env:HOMEPATH\AppData\Roaming\Code\User\
 
-Copy-Item .\configs\vscode.json ~\AppData\Roaming\Code\User\settings.json
+Copy-Item .\configs\vscode.json $env:HOMEPATH\AppData\Roaming\Code\User\settings.json
 
 refreshenv

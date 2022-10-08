@@ -3,7 +3,7 @@
 .DESCRIPTION
 	Script for installing VMware Horizon Client.
 .NOTES
-	Author: Daniel Ribeirinha-Braga
+	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #>
 
 choco install vmware-horizon-client -y
