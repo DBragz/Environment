@@ -7,8 +7,7 @@
 # Description: Script for setting up Homebrew package manager.
 #
 
-if [ -z $1 ]
-then
+if [ -z $1 ]; then
   echo -e "Error: Parameter missing\nUsage: brew.sh [<username>]"
   exit 0
 fi

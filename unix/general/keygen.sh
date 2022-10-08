@@ -7,8 +7,7 @@
 # Description: Script for generating SSH keys.
 #
 
-if [ -z $1 ]
-then
+if [ -z $1 ]; then
   echo -e "Error: Parameter missing\nUsage: keygen.sh <email>"
   exit 0
 fi

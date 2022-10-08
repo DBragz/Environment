@@ -7,8 +7,7 @@
 # Description: Script for setting up my npm proxy.
 #
 
-if [ -z $1 ]
-then
+if [ -z $1 ]; then
   echo -e "Error: Parameter missing\nUsage: npm_proxy.sh <proxy>"
   exit 0
 fi

@@ -7,8 +7,7 @@
 # Description: Script for setting up Git username and email on Mac.
 #
 
-if [ -z $1 ] && [ -z $2 ]
-then
+if [ -z $1 ] && [ -z $2 ]; then
   echo -e "Error: Parameters missing\nUsage: git_init.sh [username] [email]"
   exit 0
 fi

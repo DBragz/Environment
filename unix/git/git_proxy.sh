@@ -7,8 +7,7 @@
 # Description: Script for setting up Git proxy on Mac.
 #
 
-if [ -z $1 ]
-then
+if [ -z $1 ]; then
   echo -e "Error: Parameter missing\nUsage: git_proxy.sh [proxy]"
   exit 0
 fi

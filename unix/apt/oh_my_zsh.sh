@@ -13,8 +13,7 @@ apt install zsh -y
 
 PATH_TO_ZSH_DIR=$HOME/.oh-my-zsh
 
-if [ -d $PATH_TO_ZSH_DIR ]
-then
+if [ -d $PATH_TO_ZSH_DIR ]; then
    echo "\n$PATH_TO_ZSH_DIR directory exists! Skipping installation of zsh tools."
 else
    echo "⤵ Configuring zsh tools in the $HOME directory..."
