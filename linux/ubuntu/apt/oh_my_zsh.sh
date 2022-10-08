@@ -9,7 +9,7 @@
 
 apt update
 
-sudo apt install zsh -y
+apt install zsh -y
 
 # Set up zsh tools
 PATH_TO_ZSH_DIR=$HOME/.oh-my-zsh

@@ -1,11 +1,11 @@
 <# .SYNOPSIS
-	Lazydocker Install
+	Gzip Install
 .DESCRIPTION
-	Script for installing Lazydocker
+	Script for installing Gzip
 .NOTES
 	Author: Daniel Ribeirinha-Braga
 #>
 
-choco install lazydocker -y
+choco install gzip -y
 
 refreshenv
