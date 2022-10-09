@@ -4,9 +4,11 @@
 
 @echo off
 
-@REM if ((-not $args[0])) {
-@REM   return Write-Host "Error: Parameters missing`nUsage: proxy.ps1 [<proxy>]"
-@REM }
+if [%1]==[] (
+  echo Error: Parameters missing
+  echo usage: proxy.bat [proxy] 
+  goto :eof
+)
 
-@REM [System.Environment]::SetEnvironmentVariable('HTTP_PROXY', $args[0], [System.EnvironmentVariableTarget]::User)
-@REM [System.Environment]::SetEnvironmentVariable('HTTPS_PROXY', $args[0], [System.EnvironmentVariableTarget]::User)
+set http_proxy=%1
+set https_proxy=%1

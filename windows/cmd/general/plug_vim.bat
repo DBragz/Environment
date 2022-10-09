@@ -6,4 +6,4 @@
 
 mkdir -p ~/vimfiles/autoload/
 
-cp configs/init.vim ~/vimfiles/autoload/plug.vim
+copy configs/init.vim ~/vimfiles/autoload/plug.vim
