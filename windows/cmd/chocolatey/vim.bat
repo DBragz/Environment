@@ -6,6 +6,4 @@
 
 choco install vim -y
 
-copy .\configs\.vimrc %HOMEPATH%\.vimrc
-
 refreshenv

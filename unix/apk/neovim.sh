@@ -10,7 +10,3 @@
 apk update
 
 apk add neovim
-
-mkdir -p ~/vimfiles/autoload/
-
-cp configs/init.vim ~/vimfiles/autoload/plug.vim
