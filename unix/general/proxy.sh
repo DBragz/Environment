@@ -12,5 +12,5 @@ if [ -z $1 ]; then
   exit 0
 fi
 
-echo "export HTTP_PROXY=$1" >> ~/.profile
-echo "export HTTPS_PROXY=$1" >> ~/.profile
+echo "export http_proxy=$1" >> ~/.profile
+echo "export https_proxy=$1" >> ~/.profile

@@ -7,6 +7,6 @@
 # Description: Script for installing Vim.
 #
 
-apk update
+apt update
 
-apk add vim
+apt install vim -y

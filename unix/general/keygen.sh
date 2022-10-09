@@ -12,6 +12,6 @@ if [ -z $1 ]; then
   exit 0
 fi
 
-ssh-keygen -t rsa -b 4096 -C $1
+ssh-keygen -t rsa -b 4096 -C $1 -f $2
 
-cat ~/.ssh/id_rsa.pub
+cat $2/id_rsa.pub

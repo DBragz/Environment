@@ -9,6 +9,4 @@
 
 brew update
 
-brew install neovim
-
-cp configs/.vimrc ~/.vimrc
+brew install vim
