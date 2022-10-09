@@ -4,7 +4,7 @@
 #
 # Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #
-# Description: Script for setting up the proxy for my Zsh environment.
+# Description: Script for setting up the proxy for my http_proxy and https_proxy environment variables.
 #
 
 if [ -z $1 ]; then
