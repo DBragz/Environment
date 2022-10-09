@@ -6,6 +6,4 @@
 	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #>
 
-choco install oh-my-posh -y
-
-oh-my-posh --init --shell pwsh --config ~/jandedobbeleer.omp.json | Invoke-Expression
+Install-Module oh-my-posh -Scope CurrentUser
