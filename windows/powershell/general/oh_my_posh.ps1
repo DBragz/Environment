@@ -6,4 +6,4 @@
 	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #>
 
-Install-Module oh-my-posh -Scope CurrentUser
+Install-Module oh-my-posh
