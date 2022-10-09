@@ -3,7 +3,7 @@
 .DESCRIPTION
 	Script for setting up a user environment variable.
 .NOTES
-	Author: Daniel Ribeirinha-Braga
+	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #>
 
 if ((-not $args[0]) -or (-not $args[1])) {

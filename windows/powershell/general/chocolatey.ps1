@@ -3,7 +3,7 @@
 .DESCRIPTION
 	Script for installing Chocolatey.
 .NOTES
-	Author: Daniel Ribeirinha-Braga
+	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #>
 
 Set-ExecutionPolicy Bypass -Scope Process -Force

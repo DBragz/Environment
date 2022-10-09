@@ -1,14 +1,12 @@
-<# .SYNOPSIS
-	Proxy Setup
-.DESCRIPTION
-	Script for setting up environment proxy.
-.NOTES
-	Author: Daniel Ribeirinha-Braga
-#>
+@REM Name:     proxy.bat
+@REM Purpose:  Script for setting up environment proxy.
+@REM Author:   Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 
-if ((-not $args[0])) {
-  return Write-Host "Error: Parameters missing`nUsage: proxy.ps1 [<proxy>]"
-}
+@echo off
 
-[System.Environment]::SetEnvironmentVariable('HTTP_PROXY', $args[0], [System.EnvironmentVariableTarget]::User)
-[System.Environment]::SetEnvironmentVariable('HTTPS_PROXY', $args[0], [System.EnvironmentVariableTarget]::User)
+@REM if ((-not $args[0])) {
+@REM   return Write-Host "Error: Parameters missing`nUsage: proxy.ps1 [<proxy>]"
+@REM }
+
+@REM [System.Environment]::SetEnvironmentVariable('HTTP_PROXY', $args[0], [System.EnvironmentVariableTarget]::User)
+@REM [System.Environment]::SetEnvironmentVariable('HTTPS_PROXY', $args[0], [System.EnvironmentVariableTarget]::User)

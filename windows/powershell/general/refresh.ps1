@@ -3,7 +3,7 @@
 .DESCRIPTION
 	Script for refreshing environment variables.
 .NOTES
-	Author: Daniel Ribeirinha-Braga
+	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #>
 
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path", [System.EnvironmentVariableTarget]::Machine)

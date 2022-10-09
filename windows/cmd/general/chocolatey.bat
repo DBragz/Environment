@@ -1,6 +1,6 @@
 @REM Name:     chocolatey.bat
 @REM Purpose:  Script for installing Chocolatey.
-@REM Author:   dmrbraga@gmail.com
+@REM Author:   Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 
 @echo off
 

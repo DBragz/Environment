@@ -1,13 +1,11 @@
-<# .SYNOPSIS
-	Authorizing SSH Keys
-.DESCRIPTION
-	Script for adding SSH keys to a server to be authorized.
-.NOTES
-	Author: Daniel Ribeirinha-Braga
-#>
+@REM Name:     ssh_access.bat
+@REM Purpose:  Script for adding SSH keys to a server to be authorized.
+@REM Author:   Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 
-if ((-not $args[0]) -or (-not $args[1])) {
-  return Write-Host "Error: Parameters missing`nUsage: ssh_access.ps1 [<username>] [<hostname>]"
-}
+@echo off
 
-Get-Content ~/.ssh/id_rsa.pub | ssh $($args[0])@$($args[1]) 'mkdir ~/.ssh/ && touch ~/.ssh/authorized_keys && cat >> ~/.ssh/authorized_keys'
+@REM if ((-not $args[0]) -or (-not $args[1])) {
+@REM   return Write-Host "Error: Parameters missing`nUsage: ssh_access.ps1 [<username>] [<hostname>]"
+@REM }
+
+@REM Get-Content ~/.ssh/id_rsa.pub | ssh $($args[0])@$($args[1]) 'mkdir ~/.ssh/ && touch ~/.ssh/authorized_keys && cat >> ~/.ssh/authorized_keys'

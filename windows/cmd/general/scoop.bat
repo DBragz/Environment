@@ -1,9 +1,7 @@
-<# .SYNOPSIS
-	Scoop Install
-.DESCRIPTION
-	Script for installing Scoop.
-.NOTES
-	Author: Daniel Ribeirinha-Braga
-#>
+@REM Name:     scoop.bat
+@REM Purpose:  Script for installing Scoop.
+@REM Author:   Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 
-Invoke-WebRequest -useb get.scoop.sh | Invoke-Expression
+@echo off
+
+@REM Invoke-WebRequest -useb get.scoop.sh | Invoke-Expression

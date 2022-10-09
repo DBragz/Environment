@@ -3,7 +3,7 @@
 .DESCRIPTION
 	Script for installing Post-Git.
 .NOTES
-	Author: Daniel Ribeirinha-Braga
+	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #>
 
 Install-Module posh-git

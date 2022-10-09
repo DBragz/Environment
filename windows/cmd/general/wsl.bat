@@ -1,10 +1,7 @@
-<# .SYNOPSIS
-	Windows Subsystem for Linux Install
-.DESCRIPTION
-	Script for installing Windows Subsystem for Linux.
-.NOTES
-	Author: Daniel Ribeirinha-Braga
-	Manual Install Reference: https://docs.microsoft.com/en-us/windows/wsl/install-manual
-#>
+@REM Name:     ssh_access.bat
+@REM Purpose:  Script for installing Windows Subsystem for Linux.
+@REM Author:   Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 
-wsl --install
+@echo off
+
+@REM wsl --install

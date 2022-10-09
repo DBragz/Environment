@@ -3,7 +3,7 @@
 .DESCRIPTION
 	Script for PowerShell colors.
 .NOTES
-	Author: Daniel Ribeirinha-Braga
+	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #>
 
 New-item -type file -force $profile

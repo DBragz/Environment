@@ -1,11 +1,9 @@
-<# .SYNOPSIS
-	Windows Package Manager install
-.DESCRIPTION
-	Script for installing Windows Package Manager.
-.NOTES
-	Author: Daniel Ribeirinha-Braga
-#>
+@REM Name:     ssh_access.bat
+@REM Purpose:  Script for installing Windows Package Manager.
+@REM Author:   Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 
-curl -L https://github.com/microsoft/winget-cli/releases/download/v1.3.2091/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle --output winget.msixbundle
+@echo off
 
-.\winget.msixbundle
+@REM curl -L https://github.com/microsoft/winget-cli/releases/download/v1.3.2091/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle --output winget.msixbundle
+
+@REM .\winget.msixbundle

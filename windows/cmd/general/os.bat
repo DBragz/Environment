@@ -1,9 +1,7 @@
-<# .SYNOPSIS
-	Shows Windows Machine Operating System
-.DESCRIPTION
-	Script for retreiving the Windows operating system name.
-.NOTES
-	Author: Daniel Ribeirinha-Braga
-#>
+@REM Name:     os.bat
+@REM Purpose:  Script for retreiving the Windows operating system name.
+@REM Author:   Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 
-(Get-CimInstance -ClassName CIM_OperatingSystem).Caption
+@echo off
+
+@REM (Get-CimInstance -ClassName CIM_OperatingSystem).Caption

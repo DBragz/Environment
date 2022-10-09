@@ -3,7 +3,7 @@
 .DESCRIPTION
 	Script for setting up environment proxy.
 .NOTES
-	Author: Daniel Ribeirinha-Braga
+	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #>
 
 if ((-not $args[0])) {

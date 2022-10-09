@@ -1,4 +1,4 @@
-@REM Name:     git_init.bat
+@REM Name:     oh_my_posh.bat
 @REM Purpose:  Script for installing Oh My Posh.
 @REM Author:   Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 
