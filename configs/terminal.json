@@ -4,20 +4,20 @@
   "actions": 
   [
       {
-          "command": "find",
-          "keys": "ctrl+shift+f"
-      },
-      {
-          "command": "paste",
-          "keys": "ctrl+v"
-      },
-      {
           "command": 
           {
               "action": "copy",
               "singleLine": false
           },
           "keys": "ctrl+c"
+      },
+      {
+          "command": "paste",
+          "keys": "ctrl+v"
+      },
+      {
+          "command": "find",
+          "keys": "ctrl+shift+f"
       },
       {
           "command": 
@@ -38,30 +38,30 @@
   {
       "defaults": 
       {
-          "colorScheme": "Campbell Powershell",
+          "colorScheme": "DBragz Profile",
           "elevate": true,
-          "opacity": 0,
-          "useAcrylic": true,
-          "font":
+          "font": 
           {
               "face": "MesloLGM NF"
-          }
+          },
+          "opacity": 0,
+          "useAcrylic": true
       },
       "list": 
       [
-          {
-              "colorScheme": "DBragz Profile",
-              "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-              "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-              "hidden": false,
-              "name": "Windows PowerShell"
-          },
           {
               "colorScheme": "DBragz Profile",
               "commandline": "%SystemRoot%\\System32\\cmd.exe",
               "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
               "hidden": false,
               "name": "Command Prompt"
+          },
+          {
+              "colorScheme": "DBragz Profile",
+              "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+              "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+              "hidden": false,
+              "name": "Windows PowerShell"
           },
           {
               "colorScheme": "DBragz Profile",
@@ -80,10 +80,38 @@
               "source": "Windows.Terminal.Azure"
           },
           {
-            "colorScheme": "DBragz Profile",
+              "colorScheme": "DBragz Profile",
+              "guid": "{1777cdf0-b2c4-5a63-a204-eb60f349ea7c}",
+              "hidden": false,
+              "name": "Alpine",
+              "source": "Windows.Terminal.Wsl"
+          },
+          {   
+              "colorScheme": "DBragz Profile",
+              "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+              "hidden": false,
+              "name": "Debian",
+              "source": "Windows.Terminal.Wsl"
+          },
+          {
+              "colorScheme": "DBragz Profile",
+              "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+              "hidden": false,
+              "name": "Ubuntu",
+              "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
+          },
+          {
+              "colorScheme": "DBragz Profile",
               "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
               "hidden": false,
               "name": "kali-linux",
+              "source": "Windows.Terminal.Wsl"
+          },
+          {
+              "colorScheme": "DBragz Profile",
+              "guid": "{bc2da056-dd06-5879-b969-1dfcefc8d2c7}",
+              "hidden": false,
+              "name": "openSUSE-Tumbleweed",
               "source": "Windows.Terminal.Wsl"
           }
       ]
@@ -296,6 +324,29 @@
           "selectionBackground": "#FFFFFF",
           "white": "#D3D7CF",
           "yellow": "#C4A000"
+      },
+      {
+          "background": "#300A24",
+          "black": "#171421",
+          "blue": "#0037DA",
+          "brightBlack": "#767676",
+          "brightBlue": "#08458F",
+          "brightCyan": "#2C9FB3",
+          "brightGreen": "#26A269",
+          "brightPurple": "#A347BA",
+          "brightRed": "#C01C28",
+          "brightWhite": "#F2F2F2",
+          "brightYellow": "#A2734C",
+          "cursorColor": "#FFFFFF",
+          "cyan": "#3A96DD",
+          "foreground": "#FFFFFF",
+          "green": "#26A269",
+          "name": "Ubuntu-ColorScheme",
+          "purple": "#881798",
+          "red": "#C21A23",
+          "selectionBackground": "#FFFFFF",
+          "white": "#CCCCCC",
+          "yellow": "#A2734C"
       },
       {
           "background": "#000000",
