@@ -1,6 +1,6 @@
-# Environment
+# Unix
 
-Initial scripts to setup my terminal environments.
+Initial scripts to setup my Unix environments.
 
 ## Authors
 
