@@ -12,9 +12,11 @@ if ((-not $args[0])) {
 
 if($args[0] -eq "vim"){
   iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |` ni $HOME/vimfiles/autoload/plug.vim -Force
+  Exit
 }
 elseif($args[0] -eq "nvim"){
   iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |` ni $HOME/AppData/Local/nvim/autoload/plug.vim -Force
+  Exit
 }
 
 return Write-Host "Error: Parameter not valid`nUsage: vim_plug.ps1 [vim or nvim]"
