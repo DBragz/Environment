@@ -8,7 +8,7 @@
 #
 
 if [ -z $1 ]; then
-  echo -e "Error: Parameter missing\nUsage: vim_plug.sh [<vim or nvim>]"
+  echo -e "Error: Parameter missing\nUsage: vim_plug.sh [<vim | nvim>]"
   exit 0
 fi
 
@@ -22,4 +22,4 @@ curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --c
   exit 0
 fi
 
-echo -e "Error: Parameter not valid\nUsage: vim_plug.sh [<vim or nvim>]"
+echo -e "Error: Parameter not valid\nUsage: vim_plug.sh [<vim | nvim>]"

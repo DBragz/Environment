@@ -7,7 +7,7 @@
 #>
 
 if ((-not $args[0])) {
-  return Write-Host "Error: Parameters missing`nUsage: vim_plug.ps1 [vim or nvim]"
+  return Write-Host "Error: Parameters missing`nUsage: vim_plug.ps1 [vim | nvim]"
 }
 
 if($args[0] -eq "vim"){
@@ -19,4 +19,4 @@ elseif($args[0] -eq "nvim"){
   Exit
 }
 
-return Write-Host "Error: Parameter not valid`nUsage: vim_plug.ps1 [vim or nvim]"
+return Write-Host "Error: Parameter not valid`nUsage: vim_plug.ps1 [vim | nvim]"
