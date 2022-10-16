@@ -8,6 +8,4 @@
 
 choco install vim -y
 
-Copy-Item .\configs\.vimrc $env:HOMEPATH\.vimrc
-
 refreshenv

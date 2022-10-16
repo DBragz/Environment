@@ -6,7 +6,7 @@
 	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #>
 
-New-item -type file -force $profile
+New-item -force $profile
 
 Add-Content -Path $profile -Value '$host.ui.rawui.backgroundcolor = "Black"'
 Add-Content -Path $profile -Value '$host.ui.rawui.foregroundcolor = "Cyan"'

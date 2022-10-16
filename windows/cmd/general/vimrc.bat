@@ -1,10 +1,8 @@
-@REM Name:     vim_or_nvim_init.bat
+@REM Name:     vimrc.bat
 @REM Purpose:  Script for initializing Vim Plugin Manager.
 @REM Author:   Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 
 @echo off
-
-mkdir %HOMEPATH%\vimfiles\autoload\
 
 if [%1] == [] (
   echo Error: Parameters missing
@@ -22,4 +20,4 @@ if [%1] == [] (
 )
 
 echo Error: Parameter not valid
-echo Usage: vim_plug_init.ps1 [vim ^| nvim]
+echo Usage: vimrc.bat [vim ^| nvim]

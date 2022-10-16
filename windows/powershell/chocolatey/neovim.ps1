@@ -8,8 +8,4 @@
 
 choco install neovim -y
 
-New-Item -type Directory $env:HOMEPATH\AppData\Local\nvim
-
-Copy-Item .\configs\init.vim $env:HOMEPATH\AppData\Local\nvim\init.vim
-
 refreshenv
