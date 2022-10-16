@@ -4,4 +4,4 @@
 
 @echo off
 
-@REM (Get-CimInstance -ClassName CIM_OperatingSystem).Caption
+wmic os get version

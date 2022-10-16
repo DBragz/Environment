@@ -1,12 +1,19 @@
-@REM Name:     ssh_access.bat
+@REM Name:     user_env.bat
 @REM Purpose:  Script for setting up a user environment variable.
 @REM Author:   Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 
 @echo off
 
-@REM if ((-not $args[0]) -or (-not $args[1])) {
-@REM   return Write-Host "Error: Parameters missing`nUsage: user_env.ps1 [<env_name>] [<env_value>]"
-@REM }
+if [%1]==[] (
+  echo Error: Parameters missing
+  echo usage: user_env.bat [env_name] [env_value] 
+  goto :eof
+) else (
+  if [%2] == [] (
+    echo Error: Parameters missing
+    echo usage: user_env.bat [env_name] [env_value] 
+    goto :eof
+  )
+)
 
-@REM [Environment]::SetEnvironmentVariable(($args[0]), ($args[1]), [System.EnvironmentVariableTarget]::User)
-@REM [Environment]::SetEnvironmentVariable(($args[0]), ($args[1]), [System.EnvironmentVariableTarget]::Process)
+setx %1 %2 /S %USERDOMAIN% /U %USERNAME%
