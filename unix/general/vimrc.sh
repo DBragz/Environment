@@ -15,8 +15,8 @@ fi
 if [ $1 == "vim" ]; then
   cp configs/.vimrc ~/.vimrc
   exit 0
-elif [$1 == "nvim" ]; then
-  mkdir ~/.config/nvim
+elif [ $1 == "nvim" ]; then
+  mkdir -p ~/.config/nvim
   cp configs/init.vim ~/.config/nvim/
   exit 0
 fi

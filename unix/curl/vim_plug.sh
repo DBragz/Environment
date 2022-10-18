@@ -16,7 +16,7 @@ if [ $1 == "vim" ]; then
   curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   exit 0
-elif [$1 == "nvim" ]; then
+elif [ $1 == "nvim" ]; then
 curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   exit 0
