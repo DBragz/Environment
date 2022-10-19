@@ -51,5 +51,6 @@
     "badge.foreground": "#00FFFF",
     "badge.background": "#000000"
   },
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.fontFamily": "MesloLGL NF"
 }
