@@ -6,17 +6,6 @@
 	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #>
 
-New-item -force $profile
+Copy-Item .\configs\Microsoft.PowerShell_profile.ps1 $Profile
 
-Add-Content -Path $profile -Value '$host.ui.rawui.backgroundcolor = "Black"'
-Add-Content -Path $profile -Value '$host.ui.rawui.foregroundcolor = "Cyan"'
-Add-Content -Path $profile -Value '$host.privatedata.verbosebackgroundcolor = "Black"'
-Add-Content -Path $profile -Value '$host.privatedata.verboseforegroundcolor = "Green"'
-Add-Content -Path $profile -Value '$host.privatedata.warningbackgroundcolor = "Black"'
-Add-Content -Path $profile -Value '$host.privatedata.warningforegroundcolor = "Yellow"'
-Add-Content -Path $profile -Value '$host.privatedata.ErrorBackgroundColor = "Black"'
-Add-Content -Path $profile -Value '$host.privatedata.ErrorForegroundColor = "Red"'
-
-clear-host
-
-. $profile
+. $Profile

@@ -1,56 +1,87 @@
 {
-  "security.workspace.trust.untrustedFiles": "open",
-  "window.zoomLevel": 1,
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "editor.formatOnSave": true,
-  "editor.suggestSelection": "first",
-  "editor.tabSize": 2,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "eslint.format.enable": true,
-  "eslint.run": "onSave",
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+  "security.workspace.trust.untrustedFiles" : "newWindow",
+  "editor.tabSize" : 2,
+  "editor.detectIndentation" : false,
+  "editor.suggestSelection" : "first",
+  "editor.formatOnSave" : true,
+  "editor.accessibilitySupport" : "off",
+  "eslint.run" : "onSave",
+  "eslint.format.enable" : true,
+  "explorer.confirmDelete" : false,
+  "explorer.confirmDragAndDrop" : false,
+  "git.confirmSync" : false,
+  "terminal.integrated.defaultProfile.windows" : "PowerShell",
+  "terminal.integrated.fontFamily": "MesloLGL NF",
+  "typescript.updateImportsOnFileMove.enabled" : "always",
+  "workbench.iconTheme" : "material-icon-theme",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
   },
-  "workbench.colorCustomizations": {
-    "sideBar.background": "#000000",
-    "contrastBorder": "#00FFFF",
-    "foreground": "#00FFFF",
-    "widget.shadow": "#000000",
-    "selection.background": "#000000",
-    "activityBar.foreground": "#00FFFF",
-    "activityBar.background": "#000000",
-    "editor.foreground": "#00FFFF",
-    "editor.background": "#000000",
-    "terminal.foreground": "#00FFFF",
-    "terminal.background": "#000000",
-    "dropdown.foreground": "#00FFFF",
-    "dropdown.background": "#000000",
-    "dropdown.listBackground": "#000000",
-    "dropdown.border": "#00FFFF",
-    "editorOverviewRuler.border": "#00FFFF",
-    "scrollbar.shadow": "#00FFFF",
-    "scrollbarSlider.activeBackground": "#00FFFF",
-    "scrollbarSlider.background": "#00FFFF",
-    "scrollbarSlider.hoverBackground": "#00FFFF",
-    "list.activeSelectionBackground": "#00FFFF",
-    "list.activeSelectionForeground": "#000000",
-    "input.background": "#000000",
-    "input.foreground": "#00FFFF",
-    "input.border": "#00FFFF",
-    "editorGroupHeader.tabsBorder": "#00FFFF",
-    "editorGroupHeader.tabsBackground": "#000000",
-    "tab.activeForeground": "#000000",
-    "tab.activeBackground": "#00FFFF",
-    "tab.inactiveBackground": "#000000",
-    "tab.inactiveForeground": "#00FFFF",
-    "button.background": "#000000",
-    "button.foreground": "#00FFFF",
-    "notifications.foreground": "#00FFFF",
-    "notifications.background": "#000000",
-    "badge.foreground": "#00FFFF",
-    "badge.background": "#000000"
+  "terminal.integrated.profiles.windows" : {
+    "Command Prompt" : {
+      "path" : [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args" : [
+
+      ],
+      "icon" : "terminal-cmd"
+    },
+    "PowerShell" : {
+      "icon" : "terminal-powershell",
+      "source" : "PowerShell"
+    },
+    "Git Bash" : {
+      "source" : "Git Bash"
+    },
+    "Cygwin" : {
+      "path" : "C:\\cygwin64\\bin\\bash.exe",
+      "args" : [
+        "--login"
+      ]
+    }
   },
-  "workbench.iconTheme": "material-icon-theme",
-  "terminal.integrated.fontFamily": "MesloLGL NF"
+  "[typescriptreact]" : {
+    "editor.defaultFormatter" : "vscode.typescript-language-features"
+  },
+  "workbench.colorCustomizations" : {
+    "activityBar.foreground" : "#00FFFF",
+    "dropdown.listBackground" : "#000000",
+    "input.foreground" : "#00FFFF",
+    "input.border" : "#00FFFF",
+    "editorGroupHeader.tabsBackground" : "#000000",
+    "notifications.foreground" : "#00FFFF",
+    "tab.inactiveBackground" : "#000000",
+    "scrollbar.shadow" : "#00FFFF",
+    "terminal.background" : "#000000",
+    "dropdown.background" : "#000000",
+    "terminal.foreground" : "#00FFFF",
+    "dropdown.foreground" : "#00FFFF",
+    "scrollbarSlider.hoverBackground" : "#00FFFF",
+    "input.background" : "#000000",
+    "tab.activeBackground" : "#00FFFF",
+    "editor.background" : "#000000",
+    "editorGroupHeader.tabsBorder" : "#00FFFF",
+    "button.background" : "#000000",
+    "editor.foreground" : "#00FFFF",
+    "button.foreground" : "#00FFFF",
+    "tab.activeForeground" : "#000000",
+    "badge.foreground" : "#00FFFF",
+    "tab.inactiveForeground" : "#00FFFF",
+    "dropdown.border" : "#00FFFF",
+    "selection.background" : "#000000",
+    "badge.background" : "#000000",
+    "activityBar.background" : "#000000",
+    "contrastBorder" : "#00FFFF",
+    "list.activeSelectionForeground" : "#000000",
+    "sideBar.background" : "#000000",
+    "scrollbarSlider.activeBackground" : "#00FFFF",
+    "list.activeSelectionBackground" : "#00FFFF",
+    "widget.shadow" : "#000000",
+    "notifications.background" : "#000000",
+    "scrollbarSlider.background" : "#00FFFF",
+    "editorOverviewRuler.border" : "#00FFFF",
+    "foreground" : "#00FFFF"
+  }
 }

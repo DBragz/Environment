@@ -1,5 +1,5 @@
 <# .SYNOPSIS
-  Oh My Posh  Install
+	Oh My Posh Install
 .DESCRIPTION
 	Script for installing Oh My Posh.
 .NOTES
@@ -7,5 +7,3 @@
 #>
 
 choco install oh-my-posh -y
-
-refreshenv

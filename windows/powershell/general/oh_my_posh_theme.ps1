@@ -1,5 +1,5 @@
 <# .SYNOPSIS
-	Oh My Posh Init
+	Oh My Posh Theme
 .DESCRIPTION
 	Script for setting up Oh My Posh theme.
 .NOTES
