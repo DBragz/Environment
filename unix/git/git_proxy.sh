@@ -4,7 +4,7 @@
 #
 # Author: Daniel Ribeirinha-Braga
 #
-# Description: Script for setting up Git proxy on Mac.
+# Description: Script for setting up Git proxy.
 #
 
 if [ -z $1 ]; then
