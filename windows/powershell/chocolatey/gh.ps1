@@ -1,11 +1,11 @@
 <# .SYNOPSIS
-	Git Install
+	GitHub Command Line Interface (CLI) Install
 .DESCRIPTION
-	Script for installing Git.
+	Script for installing GitHub CLI.
 .NOTES
 	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #>
 
-choco install git  -y
+choco install gh  -y
 
 refreshenv

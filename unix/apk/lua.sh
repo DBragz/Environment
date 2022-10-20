@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Script Name: Kia.sh
+# Script Name: lua.sh
 #
 # Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #
