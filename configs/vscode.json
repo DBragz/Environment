@@ -10,38 +10,9 @@
   "explorer.confirmDelete" : false,
   "explorer.confirmDragAndDrop" : false,
   "git.confirmSync" : false,
-  "terminal.integrated.defaultProfile.windows" : "PowerShell",
-  "terminal.integrated.fontFamily": "MesloLGL NF",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
   "typescript.updateImportsOnFileMove.enabled" : "always",
   "workbench.iconTheme" : "material-icon-theme",
-  "terminal.integrated.env.osx": {
-    "FIG_NEW_SESSION": "1"
-  },
-  "terminal.integrated.profiles.windows" : {
-    "Command Prompt" : {
-      "path" : [
-        "${env:windir}\\Sysnative\\cmd.exe",
-        "${env:windir}\\System32\\cmd.exe"
-      ],
-      "args" : [
-
-      ],
-      "icon" : "terminal-cmd"
-    },
-    "PowerShell" : {
-      "icon" : "terminal-powershell",
-      "source" : "PowerShell"
-    },
-    "Git Bash" : {
-      "source" : "Git Bash"
-    },
-    "Cygwin" : {
-      "path" : "C:\\cygwin64\\bin\\bash.exe",
-      "args" : [
-        "--login"
-      ]
-    }
-  },
   "[typescriptreact]" : {
     "editor.defaultFormatter" : "vscode.typescript-language-features"
   },
@@ -83,5 +54,6 @@
     "scrollbarSlider.background" : "#00FFFF",
     "editorOverviewRuler.border" : "#00FFFF",
     "foreground" : "#00FFFF"
-  }
+  },
+  "terminal.external.osxExec": "iTerm.app"
 }
