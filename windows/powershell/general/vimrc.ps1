@@ -11,12 +11,10 @@ if ((-not $args[0])) {
 }
 
 if($args[0] -eq "vim") {
-  New-Item $Env:HOMEPATH/.vimrc
   Copy-Item configs/.vimrc $Env:HOMEPATH/.vimrc
   Exit
 }
 elseif($args[0] -eq "nvim") {
-  New-Item -type Directory $env:HOMEPATH\AppData\Local\nvim
   Copy-Item configs/init.voim $Env:HOMEPATH/AppData/Local/nvim/init.vim
   Exit
 }
