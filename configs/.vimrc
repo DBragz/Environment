@@ -18,3 +18,5 @@ Plug 'preservim/NERDTree'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 call plug#end()
+
+let NERDTreeShowHidden=1
