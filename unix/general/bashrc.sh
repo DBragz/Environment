@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Script Name: bash_profile.sh
+# Script Name: bashrc.sh
 #
 # Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #
