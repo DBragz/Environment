@@ -7,4 +7,4 @@ $host.privatedata.warningforegroundcolor = "Yellow"
 $host.privatedata.ErrorBackgroundColor = "Black"
 $host.privatedata.ErrorForegroundColor = "Red"
 
-oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\cobalt2.omp.json | Invoke-Expression
+oh-my-posh init pwsh --config "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/cobalt2.omp.json" | Invoke-Expression
