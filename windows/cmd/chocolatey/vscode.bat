@@ -9,5 +9,3 @@ choco install vscode -y
 mkdir -Path %HOMEPATH%\AppData\Roaming\Code\User\
 
 copy .\configs\vscode.json %HOMEPATH%\AppData\Roaming\Code\User\settings.json
-
-refreshenv

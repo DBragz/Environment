@@ -5,5 +5,3 @@
 @echo off
 
 choco install postman -y
-
-refreshenv

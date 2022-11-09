@@ -5,5 +5,3 @@
 @echo off
 
 choco install microsoft-windows-terminal -y
-
-refreshenv

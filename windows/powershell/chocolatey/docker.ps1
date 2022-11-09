@@ -7,5 +7,3 @@
 #>
 
 choco install docker-desktop -y
-
-refreshenv

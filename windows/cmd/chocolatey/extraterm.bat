@@ -5,5 +5,3 @@
 @echo off
 
 choco install extraterm --pre -y
-
-refreshenv

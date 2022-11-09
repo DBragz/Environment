@@ -1,9 +1,9 @@
 <# .SYNOPSIS
-	Git Install
+	MinGW Install
 .DESCRIPTION
-	Script for installing Git.
+	Script for installing MinGW.
 .NOTES
 	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
 #>
 
-choco install git  -y
+choco install mingw -y

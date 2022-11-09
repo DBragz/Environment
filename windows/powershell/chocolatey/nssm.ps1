@@ -7,5 +7,3 @@
 #>
 
 choco install nssm -y
-
-refreshenv

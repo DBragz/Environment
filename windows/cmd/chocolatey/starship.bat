@@ -5,5 +5,3 @@
 @echo off
 
 choco install starship -y
-
-refreshenv

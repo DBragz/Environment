@@ -7,5 +7,3 @@
 #>
 
 choco install neovim -y
-
-refreshenv

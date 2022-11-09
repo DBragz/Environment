@@ -7,5 +7,3 @@
 #>
 
 choco install adb -y
-
-refreshenv

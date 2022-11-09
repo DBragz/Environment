@@ -5,5 +5,3 @@
 @echo off
 
 choco install jdk8 -y
-
-refreshenv

@@ -7,5 +7,3 @@
 #>
 
 choco install nodejs -y
-
-refreshenv

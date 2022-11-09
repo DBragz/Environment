@@ -5,5 +5,3 @@
 @echo off
 
 choco install mysql-cli -y
-
-refreshenv

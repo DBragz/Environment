@@ -5,5 +5,3 @@
 @echo off
 
 choco install git  -y
-
-refreshenv

@@ -5,5 +5,3 @@
 @echo off
 
 choco install 7zip -y
-
-refreshenv

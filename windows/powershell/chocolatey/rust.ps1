@@ -7,5 +7,3 @@
 #>
 
 choco install rust -y
-
-refreshenv

@@ -5,5 +5,3 @@
 @echo off
 
 choco install adb -y
-
-refreshenv

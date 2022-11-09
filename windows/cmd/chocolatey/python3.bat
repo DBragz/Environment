@@ -5,5 +5,3 @@
 @echo off
 
 choco install python3 -y
-
-refreshenv

@@ -7,5 +7,3 @@
 #>
 
 choco install vim -y
-
-refreshenv

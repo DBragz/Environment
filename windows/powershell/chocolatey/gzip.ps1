@@ -7,5 +7,3 @@
 #>
 
 choco install gzip -y
-
-refreshenv

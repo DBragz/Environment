@@ -5,5 +5,3 @@
 @echo off
 
 choco install rust -y
-
-refreshenv

@@ -7,5 +7,3 @@
 #>
 
 choco install vmware-horizon-client -y
-
-refreshenv

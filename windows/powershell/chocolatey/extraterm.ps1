@@ -7,5 +7,3 @@
 #>
 
 choco install extraterm -y
-
-refreshenv

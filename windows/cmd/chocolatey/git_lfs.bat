@@ -5,5 +5,3 @@
 @echo off
 
 choco install git-lfs -y
-
-refreshenv

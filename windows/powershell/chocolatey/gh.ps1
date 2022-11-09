@@ -7,5 +7,3 @@
 #>
 
 choco install gh  -y
-
-refreshenv

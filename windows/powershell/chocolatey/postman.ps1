@@ -7,5 +7,3 @@
 #>
 
 choco install postman -y
-
-refreshenv

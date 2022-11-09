@@ -5,5 +5,3 @@
 @echo off
 
 choco install docker-desktop -y
-
-refreshenv

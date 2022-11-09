@@ -7,5 +7,3 @@
 #>
 
 choco install starship -y
-
-refreshenv
