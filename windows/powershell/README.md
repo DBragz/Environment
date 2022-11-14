@@ -1,4 +1,4 @@
-# Windows PowerShell
+# PowerShell
 
 Initial scripts to allow for Windows environment setups.
 
