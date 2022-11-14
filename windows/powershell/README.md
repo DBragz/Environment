@@ -6,7 +6,7 @@ Initial scripts to allow for Windows environment setups.
 
 1. Open up PowerShell as **Administrator**.
 
-2. Run the following command.
+2. Run the following commands.
 
 ```shell
 Set-ExecutionPolicy AllSigned
