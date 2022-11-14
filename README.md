@@ -1,6 +1,6 @@
-# Environment
+# Packages
 
-Initial scripts to setup my terminal environments.
+These scripts were created to help me get a better understanding of managing packages between operating systems.
 
 ## Authors
 
