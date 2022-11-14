@@ -8,7 +8,7 @@ Initial scripts to allow for Windows environment setups.
 
 2. Run the following commands.
 
-```shell
+```posh
 Set-ExecutionPolicy AllSigned
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 ```
