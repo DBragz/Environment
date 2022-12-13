@@ -1,15 +1,16 @@
-# Windows PowerShell
+# PowerShell
 
-Initial scripts to setup my Windows PowerShell environment.
+Initial scripts to allow for Windows environment setups.
 
 ## Prerequisites
 
 1. Open up PowerShell as **Administrator**.
 
-2. Run the following command.
+2. Run the following commands.
 
-```shell
-Set-ExecutionPolicy RemoteSigned
+```posh
+Set-ExecutionPolicy AllSigned
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 ```
 
 ## Authors
