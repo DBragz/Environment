@@ -1,6 +1,6 @@
-# Environment
+# Packages
 
-Initial scripts to setup my terminal environments.
+Initial scripts to install packges for my virtual environments.
 
 ## Authors
 
