@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Script Name: tmux.sh
+# Name: tmux.sh
 #
 # Description: Script for installing Tmux.
 #

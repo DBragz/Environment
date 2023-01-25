@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Script Name: vscode.sh
+# Name: vscode.sh
 #
 # Description: Script for installing VSCode.
 #
