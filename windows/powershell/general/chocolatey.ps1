@@ -1,5 +1,5 @@
 <# .SYNOPSIS
-	Chocolatey Install
+	Chocolatey install
 .DESCRIPTION
 	Script for installing Chocolatey.
 .NOTES
