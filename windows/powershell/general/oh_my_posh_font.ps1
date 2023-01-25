@@ -3,7 +3,8 @@
 .DESCRIPTION
 	Script for installing a Nerd Font.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+	Author: Daniel Ribeirinha-Braga
+  Name: oh_my_posh_font.ps1
 #>
 
 if ((-not $args[0])) {
@@ -11,3 +12,4 @@ if ((-not $args[0])) {
 }
 
 oh-my-posh font install $args[0]
+

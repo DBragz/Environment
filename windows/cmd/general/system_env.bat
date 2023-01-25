@@ -1,6 +1,6 @@
 @REM Name:     system_env.bat
 @REM Purpose:  Script for setting up a machine environment variable.
-@REM Author:   Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+@REM Author:   Daniel Ribeirinha-Braga
 
 @echo off
 
@@ -17,3 +17,4 @@ if [%1]==[] (
 )
 
 setx %1 %2 /m
+

@@ -1,6 +1,6 @@
 # PowerShell
 
-Initial scripts to allow for Windows environment setups.
+Utility PowerShell scripts.
 
 ## Prerequisites
 
@@ -16,3 +16,4 @@ Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 ## Authors
 
 - [Daniel Ribeirinha-Braga](https://github.com/DBragz)
+

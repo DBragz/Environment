@@ -1,6 +1,6 @@
 @REM Name:     oh_my_posh_font.bat
 @REM Purpose:  Script for installing a Nerd Font.
-@REM Author:   Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+@REM Author:   Daniel Ribeirinha-Braga
 
 @echo off
 
@@ -11,3 +11,4 @@ if [%1]==[] (
 )
 
 oh-my-posh font install %1
+

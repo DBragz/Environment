@@ -1,7 +1,8 @@
 # Command Prompt
 
-Initial scripts to setup my Command Prompt environment.
+Utility Command Prompt scripts.
 
 ## Authors
 
 - [Daniel Ribeirinha-Braga](https://github.com/DBragz)
+

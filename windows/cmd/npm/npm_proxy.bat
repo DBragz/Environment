@@ -1,6 +1,6 @@
 @REM Name:     node_proxy.bat
 @REM Purpose:  Script for setting up npm proxy.
-@REM Author:   Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+@REM Author:   Daniel Ribeirinha-Braga
 
 @echo off
 
@@ -13,3 +13,4 @@ if [%1]==[] (
 
 npm config set proxy %1
 npm config set https-proxy %1
+

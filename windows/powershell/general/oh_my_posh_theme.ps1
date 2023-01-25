@@ -3,7 +3,8 @@
 .DESCRIPTION
 	Script for setting up Oh My Posh theme.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+	Author: Daniel Ribeirinha-Braga
+  Name: oh_my_posh_theme.ps1
 #>
 
 if ((-not $args[0])) {
@@ -11,3 +12,4 @@ if ((-not $args[0])) {
 }
 
 oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/$($args[0]).omp.json" | Invoke-Expression
+

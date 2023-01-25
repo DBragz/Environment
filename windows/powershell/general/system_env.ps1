@@ -1,9 +1,10 @@
 <# .SYNOPSIS
-	Set Machine Environment Variables
+	Set machine environment variables
 .DESCRIPTION
 	Script for setting up a machine environment variable.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+	Author: Daniel Ribeirinha-Braga
+  Name: system_env.ps1
 #>
 
 if ((-not $args[0]) -or (-not $args[1])) {
@@ -12,3 +13,4 @@ if ((-not $args[0]) -or (-not $args[1])) {
 
 [Environment]::SetEnvironmentVariable(($args[0]), ($args[1]), [System.EnvironmentVariableTarget]::Machine)
 [Environment]::SetEnvironmentVariable(($args[0]), ($args[1]), [System.EnvironmentVariableTarget]::Process)
+

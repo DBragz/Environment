@@ -1,9 +1,11 @@
 <# .SYNOPSIS
-	Scoop Install
+	Scoop install
 .DESCRIPTION
 	Script for installing Scoop.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+	Author: Daniel Ribeirinha-Braga
+  Name: scoop.ps1
 #>
 
 Invoke-WebRequest -useb get.scoop.sh | Invoke-Expression
+

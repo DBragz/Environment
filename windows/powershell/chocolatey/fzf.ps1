@@ -1,9 +1,11 @@
 <# .SYNOPSIS
-	Fzf Install
+	Fzf install
 .DESCRIPTION
 	Script for installing fzf.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+	Author: Daniel Ribeirinha-Braga
+  Name: fzf.ps1
 #>
 
 choco install fzf -y
+

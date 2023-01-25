@@ -1,9 +1,10 @@
 <# .SYNOPSIS
-	Proxy Setup
+	Proxy setup
 .DESCRIPTION
 	Script for setting up environment proxy.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+	Author: Daniel Ribeirinha-Braga
+  Name: proxy.ps1
 #>
 
 if ((-not $args[0])) {
@@ -12,3 +13,4 @@ if ((-not $args[0])) {
 
 [System.Environment]::SetEnvironmentVariable('HTTP_PROXY', $args[0], [System.EnvironmentVariableTarget]::User)
 [System.Environment]::SetEnvironmentVariable('HTTPS_PROXY', $args[0], [System.EnvironmentVariableTarget]::User)
+

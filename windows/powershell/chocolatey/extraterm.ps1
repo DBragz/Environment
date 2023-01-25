@@ -1,9 +1,11 @@
 <# .SYNOPSIS
-	Extraterm Install
+	Extraterm install
 .DESCRIPTION
 	Script for installing Extraterm.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+	Author: Daniel Ribeirinha-Braga
+  Name: extraterm.ps1
 #>
 
 choco install extraterm -y
+

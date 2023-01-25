@@ -1,9 +1,10 @@
 <# .SYNOPSIS
-	Vim-Plug Install
+	Vim Plugin Manager install
 .DESCRIPTION
 	Script for installing Vim Plug for Vim or Neovim.
 .NOTES
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+	Author: Daniel Ribeirinha-Braga
+  Name: vim_plug.ps1
 #>
 
 if ((-not $args[0])) {
@@ -20,3 +21,4 @@ elseif($args[0] -eq "nvim"){
 }
 
 return Write-Host "Error: Parameter not valid`nUsage: vim_plug.ps1 [vim | nvim]"
+
