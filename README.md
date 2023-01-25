@@ -1,6 +1,6 @@
 # Packages
 
-Initial scripts to install packges for my virtual environments.
+Scripts for install packages in a virtual environment.
 
 ## Authors
 

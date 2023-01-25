@@ -1,12 +1,13 @@
 #!/bin/sh
 #
-# Script Name: ssh.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: ssh.sh
 #
 # Description: Script for installing Secure Shell.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 apt update
 
 apt install ssh -y
+

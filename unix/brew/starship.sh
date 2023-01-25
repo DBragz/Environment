@@ -1,12 +1,11 @@
 #!/bin/sh
 #
-# Script Name: starship.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: starship.sh
 #
 # Description: Script for installing Starship.
 #
-
-brew update
+# Author: Daniel Ribeirinha-Braga
+#
 
 brew install starship -y
+

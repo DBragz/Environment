@@ -1,12 +1,13 @@
 #!/bin/sh
 #
-# Script Name: gcc.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: gcc.sh
 #
 # Description: Script for installing GNU compiler collection.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 apt update
 
 apt install gcc -y
+

@@ -1,12 +1,13 @@
 #!/bin/sh
 #
-# Script Name: vim.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: vim.sh
 #
 # Description: Script for installing Vim.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 apk update
 
 apk add vim
+

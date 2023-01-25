@@ -1,12 +1,13 @@
 #!/bin/sh
 #
-# Script Name: lua.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: lua.sh
 #
 # Description: Script for installing Lua.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 apk update
 
 apk add lua-dev
+

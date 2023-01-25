@@ -1,12 +1,11 @@
 #!/bin/sh
 #
-# Script Name: powerlevel10k.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: powerlevel10k.sh
 #
 # Description: Script for installing Powerlevel10k.
 #
-
-brew update
+# Author: Daniel Ribeirinha-Braga
+#
 
 brew install romkatv/powerlevel10k/powerlevel10k
+

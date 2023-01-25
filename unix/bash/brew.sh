@@ -1,10 +1,10 @@
 #!/bin/bash
 #
-# Script Name: brew.sh - dmrbraga@gmail.com
+# Name: brew.sh
+#
+# Description: Script for installing Homebrew package manager.
 #
 # Author: Daniel Ribeirinha-Braga
-#
-# Description: Script for setting up Homebrew package manager.
 #
 
 if [ -z $1 ]; then
@@ -17,3 +17,4 @@ fi
 echo ‘eval “$(/opt/homebrew/bin/brew shellenv)”’ >> /Users/$1/.profile
 
 eval “$(/opt/homebrew/bin/brew shellenv)”
+

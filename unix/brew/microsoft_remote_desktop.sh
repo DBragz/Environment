@@ -1,12 +1,11 @@
 #!/bin/zsh
 #
-# Script Name: micrsoft_remote_desktop.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: micrsoft_remote_desktop.sh
 #
 # Description: Script for installing up Microsoft Remote Desktop.
 #
-
-brew update
+# Author: Daniel Ribeirinha-Braga
+#
 
 brew install --cask microsoft-remote-desktop
+

@@ -1,10 +1,10 @@
 #!/bin/sh
 #
-# Script Name: vim_plug.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: vim_plug.sh
 #
 # Description: Script for installing Vim plugin manager.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 if [ -z $1 ]; then
@@ -23,3 +23,4 @@ curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --c
 fi
 
 echo -e "Error: Parameter not valid\nUsage: vim_plug.sh [<vim | nvim>]"
+

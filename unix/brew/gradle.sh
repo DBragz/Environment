@@ -1,12 +1,11 @@
 #!/bin/zsh
 #
-# Script Name: gradle.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: gradle.sh
 #
 # Description: Script for installing Gradle.
 #
-
-brew update
+# Author: Daniel Ribeirinha-Braga
+#
 
 brew install gradle
+

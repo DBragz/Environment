@@ -1,12 +1,13 @@
 #!/bin/sh
 #
-# Script Name: wget.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: wget.sh
 #
 # Description: Script for installing Wget.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 apk update
 
 apk add wget
+

@@ -2,11 +2,12 @@
 #
 # Script Name: vim.sh
 #
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
-#
 # Description: Script for installing Vim.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 apt update
 
 apt install vim -y
+

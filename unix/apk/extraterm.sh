@@ -1,12 +1,13 @@
 #!/bin/sh
 #
-# Script Name: extraterm.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: extraterm.sh
 #
 # Description: Script for installing Extraterm.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 apk update
 
 apk add extraterm-bin
+

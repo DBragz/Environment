@@ -1,12 +1,13 @@
 #!/bin/sh
 #
-# Script Name: gh.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: gh.sh
 #
 # Description: Script for installing GitHub Command Line Interface (CLI).
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 apk update
 
 apk add github-cli
+

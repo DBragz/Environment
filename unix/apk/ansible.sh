@@ -1,12 +1,13 @@
 #!/bin/sh
 #
-# Script Name: ansible.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: ansible.sh
 #
 # Description: Script for installing Ansible.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 apk update
 
 apk add ansible
+

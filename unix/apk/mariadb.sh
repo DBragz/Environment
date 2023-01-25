@@ -1,8 +1,8 @@
 #!/bin/sh
 #
-# Script Name: mariadb.sh
+# Name: mariadb.sh
 #
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Author: Daniel Ribeirinha-Braga
 #
 # Description: Script for installing MariaDB.
 #
@@ -10,3 +10,4 @@
 apk update
 
 apk add mariadb
+

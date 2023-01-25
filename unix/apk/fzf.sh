@@ -1,12 +1,13 @@
 #!/bin/sh
 #
-# Script Name: fzf.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: fzf.sh
 #
 # Description: Script for installing fzf.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 apk update
 
 apk add fzf
+

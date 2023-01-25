@@ -1,8 +1,8 @@
 #!/bin/sh
 #
-# Script Name: ssh.sh
+# Name: ssh.sh
 #
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Author: Daniel Ribeirinha-Braga
 #
 # Description: Script for installing SSH.
 #
@@ -10,3 +10,4 @@
 apk update
 
 apk add openssh
+

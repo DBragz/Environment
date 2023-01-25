@@ -1,12 +1,13 @@
 #!/bin/sh
 #
-# Script Name: zsh.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: zsh.sh
 #
 # Description: Script for install Oh My Zsh environment.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 apt update
 
 apt install zsh -y
+

@@ -1,10 +1,11 @@
 #!/bin/sh
 #
-# Script Name: nix.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: nix.sh
 #
 # Description: Script for installing Nix.
 #
+# Author: Daniel Ribeirinha-Braga
+#
 
 sh <(curl -L https://nixos.org/nix/install)
+

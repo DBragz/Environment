@@ -1,12 +1,11 @@
 #!/bin/zsh
 #
-# Script Name: neovim.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: neovim.sh
 #
 # Description: Script for installing Neovim.
 #
-
-brew update
+# Author: Daniel Ribeirinha-Braga
+#
 
 brew install neovim
+

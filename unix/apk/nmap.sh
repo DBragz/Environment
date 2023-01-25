@@ -1,12 +1,13 @@
 #!/bin/sh
 #
-# Script Name: nmap.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: nmap.sh
 #
 # Description: Script for installing Nmap.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 apk update
 
 apk add nmap
+

@@ -1,12 +1,11 @@
 #!/bin/zsh
 #
-# Script Name: lazydocker.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: lazydocker.sh
 #
 # Description: Script for installing Lazydocker.
 #
-
-brew update
+# Author: Daniel Ribeirinha-Braga
+#
 
 brew install lazydocker
+

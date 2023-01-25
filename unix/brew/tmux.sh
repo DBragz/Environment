@@ -2,11 +2,10 @@
 #
 # Script Name: tmux.sh
 #
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
-#
 # Description: Script for installing Tmux.
 #
-
-brew update
+# Author: Daniel Ribeirinha-Braga
+#
 
 brew install tmux
+

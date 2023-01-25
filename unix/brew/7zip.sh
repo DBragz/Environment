@@ -1,12 +1,11 @@
 #!/bin/zsh
 #
-# Script Name: 7zip.sh
+# Name: 7zip.sh
 #
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Description: Script for installing 7zip.
 #
-# Description: Script for installing up 7zip.
+# Author: Daniel Ribeirinha-Braga
 #
-
-brew update
 
 brew install 7zip
+

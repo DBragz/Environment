@@ -1,10 +1,10 @@
 #!/bin/sh
 #
-# Script Name: docker.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: docker.sh
 #
 # Description: Script for installing Docker.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 apk update
@@ -16,3 +16,4 @@ addgroup $(whoami) docker
 rc-update add docker boot
 
 service docker start
+

@@ -1,12 +1,11 @@
 #!/bin/zsh
 #
-# Script Name: cask.sh
+# Name: cask.sh
 #
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Description: Script for installing Homebrew Cask.
 #
-# Description: Script for installing up Homebrew Cask.
+# Author: Daniel Ribeirinha-Braga
 #
-
-brew update
 
 brew install cask
+

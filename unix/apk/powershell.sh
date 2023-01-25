@@ -1,10 +1,10 @@
 #!/bin/sh
 #
-# Script Name: powershell.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: powershell.sh
 #
 # Description: Script for installing PowerShell.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 apk update

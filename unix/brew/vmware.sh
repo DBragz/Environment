@@ -1,12 +1,11 @@
 #!/bin/sh
 #
-# Script Name: vmware.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: vmware.sh
 #
 # Description: Script for installing VMWare Client.
 #
-
-brew update
+# Author: Daniel Ribeirinha-Braga
+#
 
 brew install --cask vmware-horizon-client
+

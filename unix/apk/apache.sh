@@ -1,8 +1,8 @@
 #!/bin/sh
 #
-# Script Name: apache.sh
+# Name: apache.sh
 #
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Author: Daniel Ribeirinha-Braga
 #
 # Description: Script for installing Apache.
 #
@@ -10,3 +10,4 @@
 apk update
 
 apk add apache2
+

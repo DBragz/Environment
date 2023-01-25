@@ -2,13 +2,10 @@
 #
 # Script Name: vscode.sh
 #
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Description: Script for installing VSCode.
 #
-# Description: Script for installing VSCode with my themes.
+# Author: Daniel Ribeirinha-Braga
 #
-
-brew update
 
 brew install --cask visual-studio-code
 
-cp configs/vscode.json ~/Library/Application\ Support/Code/User/settings.json

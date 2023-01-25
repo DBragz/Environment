@@ -1,12 +1,13 @@
 #!/bin/sh
 #
-# Script Name: docker.sh
+# Name: docker.sh
 #
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Description: Script for installing Vim.
 #
-# Description: Script for installing vim.
+# Author: Daniel Ribeirinha-Braga
 #
 
 pkg update
 
 pkg install vim -y
+

@@ -1,12 +1,11 @@
 #!/bin/zsh
 #
-# Script Name: adb.sh
+# Name: adb.sh
 #
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Description: Script for installing Android Debug Bridge (ADB).
 #
-# Description: Script for installing up Android Debug Bridge (ADB).
+# Author: Daniel Ribeirinha-Braga
 #
-
-brew update
 
 brew install android-platform-tools --cask
+

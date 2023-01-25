@@ -1,12 +1,13 @@
 #!/bin/sh
 #
-# Script Name: adb.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: adb.sh
 #
 # Description: Script for installing Android Debug Bridge (ADB).
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 apt update
 
 apt install android-tools-adb android-tools-fastboot
+

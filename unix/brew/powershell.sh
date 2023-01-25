@@ -1,12 +1,11 @@
 #!/bin/sh
 #
-# Script Name: powershell.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: powershell.sh
 #
 # Description: Script for installing PowerShell.
 #
-
-brew update
+# Author: Daniel Ribeirinha-Braga
+#
 
 brew install --cask powershell
+

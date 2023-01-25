@@ -1,10 +1,10 @@
 #!/bin/sh
 #
-# Script Name: oh_my_posh_font.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: oh_my_posh_font.sh
 #
 # Description: Script for installing a Nerd Font.
+#
+# Author: Daniel Ribeirinha-Braga 
 #
 
 if [ -z $1 ]; then
@@ -13,3 +13,4 @@ if [ -z $1 ]; then
 fi
 
 oh-my-posh font install $1
+

@@ -1,12 +1,13 @@
 #!/bin/sh
 #
-# Script Name: neovim.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: neovim.sh
 #
 # Description: Script for installing Neovim.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 apk update
 
 apk add neovim
+

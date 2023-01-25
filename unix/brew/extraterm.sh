@@ -1,12 +1,11 @@
 #!/bin/zsh
 #
-# Script Name: extraterm.sh
+# Name: extraterm.sh
 #
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Description: Script for installing Extraterm.
 #
-# Description: Script for installing up Extraterm.
+# Author: Daniel Ribeirinha-Braga
 #
-
-brew update
 
 brew install --cask extraterm
+

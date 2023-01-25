@@ -1,10 +1,10 @@
 #!/bin/sh
 #
-# Script Name: oh_my_zsh.sh
-#
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Name: oh_my_zsh.sh
 #
 # Description: Script for setting up my oh-my-zsh profile.
+#
+# Author: Daniel Ribeirinha-Braga
 #
 
 PATH_TO_ZSH_DIR=$HOME/.oh-my-zsh
@@ -16,3 +16,4 @@ else
    (cd $HOME && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended)
    echo "✅ Successfully installed zsh tools"
 fi
+
