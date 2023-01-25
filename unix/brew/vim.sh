@@ -7,7 +7,5 @@
 # Author: Daniel Ribeirinha-Braga
 #
 
-brew update
-
 brew install vim
 
