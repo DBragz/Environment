@@ -1,5 +1,5 @@
 <# .SYNOPSIS
-	Nerd Fonts Setup
+	Nerd Fonts setup
 .DESCRIPTION
 	Script for installing a Nerd Font.
 .NOTES
