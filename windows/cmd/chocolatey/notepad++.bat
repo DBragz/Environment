@@ -1,6 +1,6 @@
 @REM Name:     notepadd++.bat
-@REM Purpose:  Script for installing Notepad++.
 @REM Author:   Daniel Ribeirinha-Braga
+@REM Purpose:  Script for installing Notepad++.
 
 @echo off
 

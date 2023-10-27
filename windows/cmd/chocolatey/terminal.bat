@@ -1,6 +1,6 @@
 @REM Name:     terminal.bat
-@REM Purpose:  Script for installing Windows Terminal.
 @REM Author:   Daniel Ribeirinha-Braga
+@REM Purpose:  Script for installing Windows Terminal.
 
 @echo off
 

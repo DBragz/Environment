@@ -1,6 +1,6 @@
 @REM Name:     rust.bat
-@REM Purpose:  Script for installing Rust.
 @REM Author:   Daniel Ribeirinha-Braga
+@REM Purpose:  Script for installing Rust.
 
 @echo off
 

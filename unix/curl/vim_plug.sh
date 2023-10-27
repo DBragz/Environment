@@ -2,9 +2,9 @@
 #
 # Name: vim_plug.sh
 #
-# Description: Script for installing Vim plugin manager.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing Vim plugin manager.
 #
 
 if [ -z $1 ]; then

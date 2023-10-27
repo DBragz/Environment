@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing Docker.
 .NOTES
+  Name:   docker.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: docker.ps1
 #>
 
 choco install docker-desktop -y

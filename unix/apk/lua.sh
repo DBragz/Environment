@@ -2,9 +2,9 @@
 #
 # Name: lua.sh
 #
-# Description: Script for installing Lua.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing Lua.
 #
 
 apk update

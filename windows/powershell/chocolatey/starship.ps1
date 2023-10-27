@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing Starship.
 .NOTES
+  Name:   starship.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: starship.ps1
 #>
 
 choco install starship -y

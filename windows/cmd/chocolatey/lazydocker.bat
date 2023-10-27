@@ -1,6 +1,6 @@
 @REM Name:     git_init.bat
-@REM Purpose:  Script for installing Lazydocker.
 @REM Author:   Daniel Ribeirinha-Braga
+@REM Purpose:  Script for installing Lazydocker.
 
 @echo off
 

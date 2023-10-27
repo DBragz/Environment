@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing Neovim.
 .NOTES
+  Name:   neovim.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: neovim.ps1
 #>
 
 choco install neovim -y

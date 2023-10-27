@@ -2,9 +2,9 @@
 #
 # Name: softwareupdate.sh
 #
-# Description: Script for installing Software Update.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing Software Update.
 #
 
 softwareupdate --install -a

@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing GitHub CLI.
 .NOTES
+  Name:   gh.ps1 
 	Author: Daniel Ribeirinha-Braga
-  Name: gh.ps1 
 #>
 
 choco install gh  -y

@@ -2,9 +2,9 @@
 #
 # Name: starship.sh
 #
-# Description: Script for installing Starship.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing Starship.
 #
 
 pkg update

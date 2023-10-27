@@ -2,9 +2,9 @@
 #
 # Name: zsh.sh
 #
-# Description: Script for install Oh My Zsh environment.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for install Oh My Zsh environment.
 #
 
 apt update

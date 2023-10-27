@@ -2,9 +2,9 @@
 #
 # Name: curl.sh
 #
-# Description: Script for installing Curl.
+# Author: Daniel Ribeirinha-Braga
 #
-# Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+# Description: Script for installing Curl.
 #
 
 apk update

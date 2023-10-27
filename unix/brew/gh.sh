@@ -2,9 +2,9 @@
 #
 # Name: gh.sh
 #
-# Description: Script for installing GitHub Command Line Interface (CLI).
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing GitHub Command Line Interface (CLI).
 #
 
 brew update

@@ -2,9 +2,9 @@
 #
 # Name: cask.sh
 #
-# Description: Script for installing Homebrew Cask.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing Homebrew Cask.
 #
 
 brew install cask

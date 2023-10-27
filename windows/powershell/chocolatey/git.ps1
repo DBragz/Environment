@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing Git.
 .NOTES
+  Name:   git.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: git.ps1
 #>
 
 choco install git  -y

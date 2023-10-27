@@ -2,9 +2,9 @@
 #
 # Name: keygen.sh
 #
-# Description: Script for installing Keygen.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing Keygen.
 #
 
 apk update

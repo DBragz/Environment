@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing Vim.
 .NOTES
+  Name:   vim.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: vim.ps1
 #>
 
 choco install vim -y

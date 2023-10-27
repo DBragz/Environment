@@ -2,9 +2,9 @@
 #
 # Name: extraterm.sh
 #
-# Description: Script for installing Extraterm.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing Extraterm.
 #
 
 apk update

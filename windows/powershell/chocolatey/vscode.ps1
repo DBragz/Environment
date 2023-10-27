@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing Visual Studio Code.
 .NOTES
+  Name:   vscode.ps1 
 	Author: Daniel Ribeirinha-Braga
-  Name: vscode.ps1 
 #>
 
 choco install vscode -y

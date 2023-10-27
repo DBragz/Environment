@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing MinGW.
 .NOTES
+  Name:   mingq.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: mingq.ps1
 #>
 
 choco install mingw -y

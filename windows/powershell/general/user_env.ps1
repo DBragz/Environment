@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for setting up a user environment variable.
 .NOTES
+  Name:   user_env.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: user_env.ps1
 #>
 
 if ((-not $args[0]) -or (-not $args[1])) {

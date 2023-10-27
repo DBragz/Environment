@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing Rust.
 .NOTES
+  Name:   rust.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: rust.ps1
 #>
 
 choco install rust -y

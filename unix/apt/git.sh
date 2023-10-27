@@ -2,9 +2,9 @@
 #
 # Name: git.sh
 #
-# Description: Script for installing Git.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing Git.
 #
 
 apt update

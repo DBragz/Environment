@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing NSSM.
 .NOTES
+  Name:   nssm.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: nssm.ps1
 #>
 
 choco install nssm -y

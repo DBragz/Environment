@@ -2,9 +2,9 @@
 #
 # Name: wget.sh
 #
-# Description: Script for installing Wget.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing Wget.
 #
 
 apk update

@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing fzf.
 .NOTES
+  Name:   fzf.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: fzf.ps1
 #>
 
 choco install fzf -y

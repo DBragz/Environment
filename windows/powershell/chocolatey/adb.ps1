@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing Android Debug Bridge.
 .NOTES
+  Name:   abd.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: abd.ps1
 #>
 
 choco install adb -y

@@ -1,6 +1,6 @@
 @REM Name:     oh_my_posh.bat
-@REM Purpose:  Script for installing Oh My Posh.
 @REM Author:   Daniel Ribeirinha-Braga
+@REM Purpose:  Script for installing Oh My Posh.
 
 @echo off
 

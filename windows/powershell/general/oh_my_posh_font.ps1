@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing a Nerd Font.
 .NOTES
+  Name:   oh_my_posh_font.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: oh_my_posh_font.ps1
 #>
 
 if ((-not $args[0])) {

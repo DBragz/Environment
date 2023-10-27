@@ -2,9 +2,9 @@
 #
 # Name: docker.sh
 #
-# Description: Script for installing Docker.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing Docker.
 #
 
 pkg update

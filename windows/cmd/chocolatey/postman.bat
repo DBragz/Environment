@@ -1,6 +1,6 @@
 @REM Name:     postman.bat
-@REM Purpose:  Script for installing Postman.
 @REM Author:   Daniel Ribeirinha-Braga
+@REM Purpose:  Script for installing Postman.
 
 @echo off
 

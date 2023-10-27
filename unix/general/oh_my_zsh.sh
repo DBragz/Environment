@@ -2,9 +2,9 @@
 #
 # Name: oh_my_zsh.sh
 #
-# Description: Script for setting up my oh-my-zsh profile.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for setting up my oh-my-zsh profile.
 #
 
 PATH_TO_ZSH_DIR=$HOME/.oh-my-zsh

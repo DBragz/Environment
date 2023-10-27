@@ -1,6 +1,6 @@
 @REM Name:     python3.bat
-@REM Purpose:  Script for installing Python 3.
 @REM Author:   Daniel Ribeirinha-Braga
+@REM Purpose:  Script for installing Python 3.
 
 @echo off
 

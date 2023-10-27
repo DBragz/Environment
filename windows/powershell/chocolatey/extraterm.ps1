@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing Extraterm.
 .NOTES
+  Name:   extraterm.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: extraterm.ps1
 #>
 
 choco install extraterm -y

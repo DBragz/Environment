@@ -2,9 +2,9 @@
 #
 # Name: node.sh
 #
-# Description: Script for installing Node.js and Node Package Manager (NPM).
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing Node.js and Node Package Manager (NPM).
 #
 
 apk update

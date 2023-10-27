@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing Vim Plug for Vim or Neovim.
 .NOTES
+  Name:   vim_plug.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: vim_plug.ps1
 #>
 
 if ((-not $args[0])) {

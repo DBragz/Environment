@@ -2,9 +2,9 @@
 #
 # Name: nix.sh
 #
-# Description: Script for installing Nix.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing Nix.
 #
 
 sh <(curl -L https://nixos.org/nix/install)

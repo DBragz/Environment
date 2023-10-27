@@ -2,9 +2,9 @@
 #
 # Name: xcode.sh
 #
-# Description: Script for installing xcode command line tools.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing xcode command line tools.
 #
 
 xcode-select --install

@@ -2,9 +2,9 @@
 #
 # Name: powershell.sh
 #
-# Description: Script for installing PowerShell.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing PowerShell.
 #
 
 brew install --cask powershell

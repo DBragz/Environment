@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing Gzip.
 .NOTES
+  name:   gzip.ps1
 	Author: Daniel Ribeirinha-Braga
-  name: gzip.ps1
 #>
 
 choco install gzip -y

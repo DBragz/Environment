@@ -4,7 +4,7 @@
 	Script for setting up npm proxy.
 .NOTES
 	Author: Daniel Ribeirinha-Braga
-  Name: npm_proxy.ps1
+  Name:   npm_proxy.ps1
 #>
 
 if ((-not $args[0])) {

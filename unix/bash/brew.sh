@@ -2,9 +2,9 @@
 #
 # Name: brew.sh
 #
-# Description: Script for installing Homebrew package manager.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing Homebrew package manager.
 #
 
 if [ -z $1 ]; then

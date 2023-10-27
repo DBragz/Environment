@@ -1,6 +1,6 @@
 @REM Name:     starship.bat
-@REM Purpose:  Script for installing Starship.
 @REM Author:   Daniel Ribeirinha-Braga
+@REM Purpose:  Script for installing Starship.
 
 @echo off
 

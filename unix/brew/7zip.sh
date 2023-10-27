@@ -2,9 +2,9 @@
 #
 # Name: 7zip.sh
 #
-# Description: Script for installing 7zip.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing 7zip.
 #
 
 brew install 7zip

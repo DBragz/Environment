@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing Post-Git.
 .NOTES
+  Name:   posh_git.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: posh_git.ps1
 #>
 
 Install-Module posh-git

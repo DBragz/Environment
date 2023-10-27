@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for retreiving the Windows operating system name.
 .NOTES
+  Name:   os.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: os.ps1
 #>
 
 (Get-CimInstance -ClassName CIM_OperatingSystem).Caption

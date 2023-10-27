@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing MySQL CLI.
 .NOTES
+  Name:   mysql_cli.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: mysql_cli.ps1
 #>
 
 choco install mysql-cli -y

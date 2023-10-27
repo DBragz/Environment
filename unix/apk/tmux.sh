@@ -2,9 +2,9 @@
 #
 # Name: tmux.sh
 #
-# Description: Script for installing Tmux.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing Tmux.
 #
 
 apk update

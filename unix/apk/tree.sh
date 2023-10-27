@@ -2,9 +2,9 @@
 #
 # Name: tree.sh
 #
-# Description: Script for installing Tree.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing Tree.
 #
 
 apk update

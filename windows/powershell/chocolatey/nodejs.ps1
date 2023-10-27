@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing Node.js.
 .NOTES
+  Name:   nodejs.ps1 
 	Author: Daniel Ribeirinha-Braga
-  Name: nodejs.ps1 
 #>
 
 choco install nodejs -y

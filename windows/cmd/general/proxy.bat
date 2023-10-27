@@ -1,6 +1,6 @@
 @REM Name:     proxy.bat
-@REM Purpose:  Script for setting up environment proxy.
 @REM Author:   Daniel Ribeirinha-Braga
+@REM Purpose:  Script for setting up environment proxy.
 
 @echo off
 

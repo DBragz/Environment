@@ -1,6 +1,6 @@
 @REM Name:     extraterm.bat
-@REM Purpose:  Script for installing Extraterm.
 @REM Author:   Daniel Ribeirinha-Braga
+@REM Purpose:  Script for installing Extraterm.
 
 @echo off
 

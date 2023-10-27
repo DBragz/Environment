@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for setting up environment proxy.
 .NOTES
+  Name:   proxy.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: proxy.ps1
 #>
 
 if ((-not $args[0])) {

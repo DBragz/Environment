@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for setting up Oh My Posh theme.
 .NOTES
+  Name:   oh_my_posh_theme.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: oh_my_posh_theme.ps1
 #>
 
 if ((-not $args[0])) {

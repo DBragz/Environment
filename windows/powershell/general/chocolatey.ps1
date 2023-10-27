@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing Chocolatey.
 .NOTES
+  Name:   chocolatey.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: chocolatey.ps1
 #>
 
 Set-ExecutionPolicy Bypass -Scope Process -Force

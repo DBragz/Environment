@@ -1,6 +1,6 @@
 @REM Name:     ssh_keygen.bat
-@REM Purpose:  Script for generating SSH keys.
 @REM Author:   Daniel Ribeirinha-Braga
+@REM Purpose:  Script for generating SSH keys.
 
 @echo off
 

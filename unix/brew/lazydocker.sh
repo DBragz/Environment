@@ -2,9 +2,9 @@
 #
 # Name: lazydocker.sh
 #
-# Description: Script for installing Lazydocker.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing Lazydocker.
 #
 
 brew install lazydocker

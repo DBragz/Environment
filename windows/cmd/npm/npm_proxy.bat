@@ -1,6 +1,6 @@
 @REM Name:     node_proxy.bat
-@REM Purpose:  Script for setting up npm proxy.
 @REM Author:   Daniel Ribeirinha-Braga
+@REM Purpose:  Script for setting up npm proxy.
 
 @echo off
 

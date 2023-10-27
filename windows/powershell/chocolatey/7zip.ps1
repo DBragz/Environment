@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing 7-Zip.
 .NOTES
+  Name:   7zip.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: 7zip.ps1
 #>
 
 choco install 7zip -y

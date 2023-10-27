@@ -1,6 +1,6 @@
 @REM Name:     mingw.bat
-@REM Purpose:  Script for installing MinGW.
 @REM Author:   Daniel Ribeirinha-Braga
+@REM Purpose:  Script for installing MinGW.
 
 @echo off
 

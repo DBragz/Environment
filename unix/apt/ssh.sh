@@ -2,9 +2,9 @@
 #
 # Name: ssh.sh
 #
-# Description: Script for installing Secure Shell.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing Secure Shell.
 #
 
 apt update

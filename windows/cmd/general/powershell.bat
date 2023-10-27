@@ -1,6 +1,6 @@
 @REM Name:     powershell.bat
-@REM Purpose:  Script for installing PowerShell.
 @REM Author:   Daniel Ribeirinha-Braga
+@REM Purpose:  Script for installing PowerShell.
 
 @echo off
 

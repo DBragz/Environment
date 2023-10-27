@@ -1,6 +1,6 @@
 @REM Name:     ssh_access.bat
-@REM Purpose:  Script for adding SSH keys to a server to be authorized.
 @REM Author:   Daniel Ribeirinha-Braga
+@REM Purpose:  Script for adding SSH keys to a server to be authorized.
 
 @echo off
 

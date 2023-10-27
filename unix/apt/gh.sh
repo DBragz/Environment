@@ -2,9 +2,9 @@
 #
 # Name: git.sh
 #
-# Description: Script for installing Git Command Line Tool (CLI).
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing Git Command Line Tool (CLI).
 #
 
 apt update

@@ -2,9 +2,9 @@
 #
 # Name: gradle.sh
 #
-# Description: Script for installing Gradle.
-#
 # Author: Daniel Ribeirinha-Braga
+#
+# Description: Script for installing Gradle.
 #
 
 brew install gradle

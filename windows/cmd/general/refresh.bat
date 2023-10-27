@@ -1,6 +1,6 @@
 @REM Name:     refresh.bat
-@REM Purpose:  Script for refreshing environment variables.
 @REM Author:   Daniel Ribeirinha-Braga
+@REM Purpose:  Script for refreshing environment variables.
 
 @echo off
 

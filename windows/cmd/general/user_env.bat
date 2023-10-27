@@ -1,6 +1,6 @@
 @REM Name:     user_env.bat
-@REM Purpose:  Script for setting up a user environment variable.
 @REM Author:   Daniel Ribeirinha-Braga
+@REM Purpose:  Script for setting up a user environment variable.
 
 @echo off
 

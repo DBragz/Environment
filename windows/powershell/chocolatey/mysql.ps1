@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing MySQL server.
 .NOTES
+  Name:   mysql.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: mysql.ps1
 #>
 
 choco install mysql -y

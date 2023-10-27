@@ -2,9 +2,9 @@
 #
 # Name: oh_my_posh_font.sh
 #
-# Description: Script for installing a Nerd Font.
-#
 # Author: Daniel Ribeirinha-Braga 
+#
+# Description: Script for installing a Nerd Font.
 #
 
 if [ -z $1 ]; then

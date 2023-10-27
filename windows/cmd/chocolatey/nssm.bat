@@ -1,6 +1,6 @@
 @REM Name:     nssm.bat
-@REM Purpose:  Script for installing Non-Sucking Service Manager (NSSM).
 @REM Author:   Daniel Ribeirinha-Braga
+@REM Purpose:  Script for installing Non-Sucking Service Manager (NSSM).
 
 @echo off
 

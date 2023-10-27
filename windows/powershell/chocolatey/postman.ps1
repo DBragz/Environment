@@ -3,8 +3,8 @@
 .DESCRIPTION
 	Script for installing Postman.
 .NOTES
+  Name:   postman.ps1
 	Author: Daniel Ribeirinha-Braga
-  Name: postman.ps1
 #>
 
 choco install postman -y
