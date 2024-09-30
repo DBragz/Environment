@@ -1,13 +1,13 @@
 <# 
 .SYNOPSIS
-	7-Zip install.
+  7-Zip install.
 
 .DESCRIPTION
-	Script for installing 7-Zip.
+  Script for installing 7-Zip.
 
 .FILE
   7zip.ps1
-  
+
 .NOTES
   Author: Daniel Ribeirinha-Braga
 #>
