@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	7-Zip install
+<# 
+.SYNOPSIS
+	7-Zip install.
+
 .DESCRIPTION
 	Script for installing 7-Zip.
+
+.FILE
+  7zip.ps1
+  
 .NOTES
-  Name:   7zip.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 choco install 7zip -y
