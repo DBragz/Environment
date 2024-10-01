@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Docker install
+<# 
+.SYNOPSIS
+  Docker install.
+
 .DESCRIPTION
-	Script for installing Docker.
+  Script for installing Docker.
+
+.FILE
+  docker.ps1
+
 .NOTES
-  Name:   docker.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 choco install docker-desktop -y
