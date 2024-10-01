@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	MinGW install
+<# 
+.SYNOPSIS
+  MinGW install.
+
 .DESCRIPTION
-	Script for installing MinGW.
+  Script for installing MinGW.
+
+.FILE
+  mingw.ps1
+
 .NOTES
-  Name:   mingq.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 choco install mingw -y

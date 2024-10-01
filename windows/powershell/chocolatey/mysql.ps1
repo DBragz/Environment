@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	MySQL install
+<# 
+.SYNOPSIS
+  MySQL install.
+
 .DESCRIPTION
-	Script for installing MySQL server.
+  Script for installing MySQL server.
+
+.FILE
+  mysql.ps1
+
 .NOTES
-  Name:   mysql.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 choco install mysql -y
