@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Git Large File System (LFS) install
+<# 
+.SYNOPSIS
+  Git Large File System (LFS) install.
+
 .DESCRIPTION
-	Script for installing Git LFS.
+  Script for installing Git LFS.
+
+.FILE
+  git_lfs.ps1
+
 .NOTES
-  Name:   git_lfs.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 choco install git-lfs -y

@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Gzip install
+<# 
+.SYNOPSIS
+  Gzip install.
+
 .DESCRIPTION
-	Script for installing Gzip.
+  Script for installing Gzip.
+
+.FILE
+  gzip.ps1
+
 .NOTES
-  name:   gzip.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 choco install gzip -y
