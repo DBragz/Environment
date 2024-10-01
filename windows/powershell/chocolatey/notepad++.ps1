@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Notepad++ install
+<# 
+.SYNOPSIS
+  Notepad++ install.
+
 .DESCRIPTION
-	Script for installing Notepad++.
+  Script for installing Notepad++.
+
+.FILE
+  nodepad++.ps1
+
 .NOTES
-  Name:   notepad++.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 choco install notepadplusplus -y

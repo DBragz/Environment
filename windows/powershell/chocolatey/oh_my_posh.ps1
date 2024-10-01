@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Oh My Posh install
+<# 
+.SYNOPSIS
+  Oh My Posh install.
+
 .DESCRIPTION
-	Script for installing Oh My Posh.
+  Script for installing Oh My Posh.
+
+.FILE
+  oh_my_posh.ps1
+
 .NOTES
-  Name:   oh_my_posh.ps1 
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 choco install oh-my-posh -y

@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-  Non-Sucking Service Manager (NSSM) install
+<# 
+.SYNOPSIS
+  Non-Sucking Service Manager (NSSM) install.
+
 .DESCRIPTION
-	Script for installing NSSM.
+  Script for installing NSSM.
+
+.FILE
+  nssm.ps1
+
 .NOTES
-  Name:   nssm.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 choco install nssm -y
