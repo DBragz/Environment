@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Posh-Git install
+<# 
+.SYNOPSIS
+  Posh-Git install.
+
 .DESCRIPTION
-	Script for installing Post-Git.
+  Script for installing Post-Git.
+
+.FILE
+  posh_git.ps1
+
 .NOTES
-  Name:   posh_git.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 Install-Module posh-git

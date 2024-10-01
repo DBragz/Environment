@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Nerd Fonts setup
+<# 
+.SYNOPSIS
+  Nerd Fonts setup.
+
 .DESCRIPTION
-	Script for installing a Nerd Font.
+  Script for installing a Nerd Font.
+
+.FILE
+  oh_my_posh_font.ps1
+
 .NOTES
-  Name:   oh_my_posh_font.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 if ((-not $args[0])) {

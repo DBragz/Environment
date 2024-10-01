@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Shows windows operating system name
+<# 
+.SYNOPSIS
+  Shows windows operating system name.
+
 .DESCRIPTION
-	Script for retreiving the Windows operating system name.
+  Script for retreiving the Windows operating system name.
+
+.FILE
+  os.ps1
+
 .NOTES
-  Name:   os.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 (Get-CimInstance -ClassName CIM_OperatingSystem).Caption

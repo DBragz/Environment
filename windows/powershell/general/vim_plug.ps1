@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Vim Plugin Manager install
+<# 
+.SYNOPSIS
+  Vim Plugin Manager install.
+
 .DESCRIPTION
-	Script for installing Vim Plug for Vim or Neovim.
+  Script for installing Vim Plug for Vim or Neovim.
+
+.FILE
+  vim_plug.ps1
+
 .NOTES
-  Name:   vim_plug.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 if ((-not $args[0])) {
@@ -12,11 +17,11 @@ if ((-not $args[0])) {
 }
 
 if($args[0] -eq "vim"){
-  iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |` ni $HOME/vimfiles/autoload/plug.vim -Force
+  Invoke-WebRequest -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |` New-Item $HOME/vimfiles/autoload/plug.vim -Force
   Exit
 }
 elseif($args[0] -eq "nvim"){
-  iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |` ni $HOME/AppData/Local/nvim/autoload/plug.vim -Force
+  Invoke-WebRequest -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |` New-Item $HOME/AppData/Local/nvim/autoload/plug.vim -Force
   Exit
 }
 

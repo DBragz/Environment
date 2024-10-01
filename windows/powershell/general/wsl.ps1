@@ -1,10 +1,16 @@
-<# .SYNOPSIS
-	Windows subsystem for linux install
+<# 
+.SYNOPSIS
+  Windows Subsystem for Linux install.
+
 .DESCRIPTION
-	Script for installing Windows Subsystem for Linux.
+  Script for installing Windows Subsystem for Linux.
+
+.FILE
+  wsl.ps1
+
 .NOTES
-  Name:   wsl.ps1
-	Author: Daniel Ribeirinha-Braga - dmrbraga@gmail.com
+  Author: Daniel Ribeirinha-Braga
+
 .LINK
 	https://docs.microsoft.com/en-us/windows/wsl/install-manual
 #>

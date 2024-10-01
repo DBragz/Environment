@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Node Package Manager (NPM) proxy setup
+<# 
+.SYNOPSIS
+  Node Package Manager (NPM) proxy setup.
+
 .DESCRIPTION
-	Script for setting up npm proxy.
+  Script for setting up npm proxy.
+
+.FILE
+  npm_proxy.ps1
+
 .NOTES
-	Author: Daniel Ribeirinha-Braga
-  Name:   npm_proxy.ps1
+  Author: Daniel Ribeirinha-Braga
 #>
 
 if ((-not $args[0])) {

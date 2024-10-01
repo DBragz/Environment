@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Proxy setup
+<# 
+.SYNOPSIS
+  Proxy setup.
+
 .DESCRIPTION
-	Script for setting up environment proxy.
+  Script for setting up environment proxy.
+
+.FILE
+  proxy.ps1
+
 .NOTES
-  Name:   proxy.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 if ((-not $args[0])) {

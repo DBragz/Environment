@@ -1,11 +1,16 @@
-<# .SYNOPSIS
-	Powershell install
+<# 
+.SYNOPSIS
+  Powershell install.
+
 .DESCRIPTION
-	Script for installing PowerShell.
+  Script for installing PowerShell.
+
+.FILE
+  powershell.ps1
+
 .NOTES
-  Name:   powershell.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
-Invoke-Expression "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
+Invoke-Expression "& { $(Invoke-RestMethod https://aka.ms/install-powershell.ps1) } -UseMSI"
 

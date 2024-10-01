@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Oh My Posh Theme
+<# 
+.SYNOPSIS
+  Oh My Posh theme.
+
 .DESCRIPTION
-	Script for setting up Oh My Posh theme.
+  Script for setting up Oh My Posh theme.
+
+.FILE
+  oh_my_posh_theme.ps1
+
 .NOTES
-  Name:   oh_my_posh_theme.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 if ((-not $args[0])) {
