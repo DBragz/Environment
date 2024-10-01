@@ -11,5 +11,6 @@
 .NOTES
   Author: Daniel Ribeirinha-Braga
 #>
+
 choco install fzf -y
 
