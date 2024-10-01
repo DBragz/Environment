@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Vim Install
+<# 
+.SYNOPSIS
+  Vim install.
+
 .DESCRIPTION
-	Script for installing Vim.
+  Script for installing Vim.
+
+.FILE
+  vim.ps1
+
 .NOTES
-  Name:   vim.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 choco install vim -y

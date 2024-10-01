@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Visual Studio Code Install.
+<# 
+.SYNOPSIS
+  Visual Studio Code install.
+
 .DESCRIPTION
-	Script for installing Visual Studio Code.
+  Script for installing Visual Studio Code.
+
+.FILE
+  vmware_horizon_client.ps1
+
 .NOTES
-  Name:   vscode.ps1 
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 choco install vscode -y

@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Postman install
+<# 
+.SYNOPSIS
+  Postman install.
+
 .DESCRIPTION
-	Script for installing Postman.
+  Script for installing Postman.
+
+.FILE
+  postman.ps1
+
 .NOTES
-  Name:   postman.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 choco install postman -y

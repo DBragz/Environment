@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-  Rust install
+<# 
+.SYNOPSIS
+  Rust install.
+
 .DESCRIPTION
-	Script for installing Rust.
+  Script for installing Rust.
+
+.FILE
+  rust.ps1
+
 .NOTES
-  Name:   rust.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 choco install rust -y

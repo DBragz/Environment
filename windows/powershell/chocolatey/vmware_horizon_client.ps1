@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	VMware Horizon Client Install
+<# 
+.SYNOPSIS
+  VMware Horizon client install.
+
 .DESCRIPTION
-	Script for installing VMware Horizon Client.
+  Script for installing VMware Horizon Client.
+
+.FILE
+  vmware_horizon_client.ps1
+
 .NOTES
-  Name:   vmware_horizon_client.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 choco install vmware-horizon-client -y

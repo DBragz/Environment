@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Windows Terminal install
+<# 
+.SYNOPSIS
+  Windows Terminal install.
+
 .DESCRIPTION
-	Script for installing Windows Terminal.
+  Script for installing Windows Terminal.
+
+.FILE
+  terminal.ps1
+
 .NOTES
-  Name:   terminal.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 choco install microsoft-windows-terminal -y

@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Starship Install
+<# 
+.SYNOPSIS
+  Starship install.
+
 .DESCRIPTION
-	Script for installing Starship.
+  Script for installing Starship.
+
+.FILE
+  starship.ps1
+
 .NOTES
-  Name:   starship.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 choco install starship -y

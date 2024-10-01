@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Python 3 install
+<# 
+.SYNOPSIS
+  Python 3 install.
+
 .DESCRIPTION
-	Script for installing Python 3.
+  Script for installing Python 3.
+
+.FILE
+  python3.ps1
+
 .NOTES
-  Name:   python3.ps1 
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 choco install python3 -y
