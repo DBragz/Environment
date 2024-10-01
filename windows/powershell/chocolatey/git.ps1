@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Git install
+<# 
+.SYNOPSIS
+  Git install.
+
 .DESCRIPTION
-	Script for installing Git.
+  Script for installing Git.
+
+.FILE
+  git.ps1
+
 .NOTES
-  Name:   git.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 choco install git  -y

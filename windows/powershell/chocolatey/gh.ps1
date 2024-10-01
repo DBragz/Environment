@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	GitHub Command Line Interface (CLI) install
+<# 
+.SYNOPSIS
+  GitHub Command Line Interface (CLI) install.
+
 .DESCRIPTION
-	Script for installing GitHub CLI.
+  Script for installing GitHub CLI.
+
+.FILE
+  gh.ps1
+
 .NOTES
-  Name:   gh.ps1 
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 choco install gh  -y
