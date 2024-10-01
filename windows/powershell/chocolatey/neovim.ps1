@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Neovim install
+<# 
+.SYNOPSIS
+  Neovim install.
+
 .DESCRIPTION
-	Script for installing Neovim.
+  Script for installing Neovim.
+
+.FILE
+  neovim.ps1
+
 .NOTES
-  Name:   neovim.ps1
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 choco install neovim -y

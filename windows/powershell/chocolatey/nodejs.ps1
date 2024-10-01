@@ -1,10 +1,15 @@
-<# .SYNOPSIS
-	Node.js install
+<# 
+.SYNOPSIS
+  Node.js install.
+
 .DESCRIPTION
-	Script for installing Node.js.
+  Script for installing Node.js.
+
+.FILE
+  nodejs.ps1
+
 .NOTES
-  Name:   nodejs.ps1 
-	Author: Daniel Ribeirinha-Braga
+  Author: Daniel Ribeirinha-Braga
 #>
 
 choco install nodejs -y
